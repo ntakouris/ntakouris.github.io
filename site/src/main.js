@@ -13,6 +13,11 @@ export default function (Vue, { appOptions, router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://use.fontawesome.com/releases/v5.7.0/css/all.css'
   })
+
+  head.meta.push({
+    name: 'keywords',
+    content: 'zarkopafilis,theodoros,ntakouris,cv,ceid'
+  })
   
   const opts = { }
   Vue.use(Vuetify)

@@ -12,7 +12,8 @@
     {
         "title": "Projects",
         "icon": "build",
-        "href": "/projects"
+        "href": "/projects",
+        "sub": true
     },
     {
         "title": "Blog",

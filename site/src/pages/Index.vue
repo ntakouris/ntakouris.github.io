@@ -1,13 +1,13 @@
 <template>
   <Layout>
-    stub
+    Hi
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Home'
   }
 }
 </script>

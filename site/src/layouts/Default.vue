@@ -22,15 +22,16 @@
         <v-toolbar-title>@zarkopafilis</v-toolbar-title>
 
         <v-spacer />
-          <v-btn icon class="mx-1" v-for="entry in socialEntries" :key="entry.href" :href="entry.href" 
-            target="_blank">
-            <v-icon> {{ entry.icon }} </v-icon>
-          </v-btn>
+
+        <v-btn icon class="mx-1" v-for="entry in socialEntries" :key="entry.href" :href="entry.href" 
+          target="_blank">
+          <v-icon> {{ entry.icon }} </v-icon>
+        </v-btn>
       </v-app-bar>
 
       <v-content>
         <v-container fluid fill-height>
-          <v-layout align-center justify-center fill-width>
+          <v-layout fill-width>
             <slot />
           </v-layout>
         </v-container>
@@ -62,12 +63,12 @@ export default {
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .fill-width {
