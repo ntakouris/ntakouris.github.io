@@ -9,6 +9,14 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "assets-loader": "^0.5.2",
+    "gridsome": "^0.7.0",
+    "vuetify": "^2.0.18"
+  },
+  "devDependencies": {
+    "@mdi/font": "^4.4.95",
+    "@mdi/js": "^4.4.95",
+    "gh-pages": "^2.1.1",
+    "webpack-node-externals": "^1.7.2"
   }
 }

@@ -1,50 +1,80 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot/>
-  </div>
+    <v-app>
+      <v-navigation-drawer v-model="drawer" app clipped>
+        <v-list dense>
+          <v-list-item v-for="item in menuItems" :key="item.title" :href="item.href" :target="item.target ? item.target : ''">
+            <v-list-item-action>
+              <v-icon>{{ item.icon }}</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>
+                {{ item.title }}  
+              </v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list>
+      </v-navigation-drawer>
+
+      <v-app-bar app clipped-left>
+        <v-app-bar-nav-icon @click.stop="drawer = !drawer">
+          <v-icon>menu</v-icon>
+        </v-app-bar-nav-icon>
+        <v-toolbar-title>@zarkopafilis</v-toolbar-title>
+
+        <v-spacer />
+          <v-btn icon class="mx-1" v-for="entry in socialEntries" :key="entry.href" :href="entry.href" 
+            target="_blank">
+            <v-icon> {{ entry.icon }} </v-icon>
+          </v-btn>
+      </v-app-bar>
+
+      <v-content>
+        <v-container fluid fill-height>
+          <v-layout align-center justify-center fill-width>
+            <slot />
+          </v-layout>
+        </v-container>
+      </v-content>
+
+      <v-footer app inset>
+        <span class="footer">Copyright &copy; Theodoros Ntakouris 2019</span>
+      </v-footer>
+    </v-app>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
+<script>
+import menuItems from "~/data/menu.json"
+import socialEntries from "~/data/social.json"
+
+export default {
+  name: "Default",
+  created () {
+    this.$vuetify.theme.dark = true
+  },
+  data() {
+    return {
+      menuItems,
+      socialEntries,
+      drawer: null
+    };
   }
-}
-</static-query>
+};
+</script>
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
 }
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+.fill-width {
+  width: 100%;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
+.footer {
+  font-size: 14px;
 }
 </style>

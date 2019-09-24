@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Index",
+        "icon": "home",
+        "href": "/"
+    },
+    {
+        "title": "CV",
+        "icon": "account_box",
+        "href": "/cv"
+    },
+    {
+        "title": "Projects",
+        "icon": "build",
+        "href": "/projects"
+    },
+    {
+        "title": "Blog",
+        "icon": "notes",
+        "href": "https://medium.com/@zarkopafilis",
+        "target": "_blank"
+    }
+]
