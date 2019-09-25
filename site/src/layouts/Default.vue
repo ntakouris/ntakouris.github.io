@@ -23,6 +23,8 @@
 
         <v-spacer />
 
+        <v-switch v-model="darkMode" label="Dark Mode" style="margin-top: 26px;"></v-switch>
+
         <v-btn icon class="mx-1" v-for="entry in socialEntries" :key="entry.href" :href="entry.href" 
           target="_blank">
           <v-icon> {{ entry.icon }} </v-icon>
@@ -32,7 +34,9 @@
       <v-content>
         <v-container fluid fill-height>
           <v-layout fill-width>
-            <slot />
+            <div class="col-10 mx-auto">
+              <slot />
+            </div>
           </v-layout>
         </v-container>
       </v-content>
@@ -56,8 +60,14 @@ export default {
     return {
       menuItems,
       socialEntries,
+      darkMode: true,
       drawer: null
     };
+  },
+  watch: {
+    darkMode(newVal) {
+      this.$vuetify.theme.dark = newVal
+    }
   }
 };
 </script>
