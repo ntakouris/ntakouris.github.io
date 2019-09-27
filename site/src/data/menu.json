@@ -10,11 +10,6 @@
         "href": "/cv"
     },
     {
-        "title": "Important People",
-        "icon": "person",
-        "href": "/people"
-    },
-    {
         "title": "Projects",
         "icon": "build",
         "href": "/projects",

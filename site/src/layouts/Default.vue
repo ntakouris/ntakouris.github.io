@@ -13,6 +13,25 @@
             </v-list-item-content>
           </v-list-item>
         </v-list>
+
+        <br />
+        <v-divider :inset="inset"></v-divider>
+        <v-subheader>Social</v-subheader>
+
+        <v-list dense>
+          <div v-for="item in socialEntries" :key="item.title">
+          <v-list-item v-if="item.title" :href="item.href" target="_blank">
+            <v-list-item-action>
+              <v-icon>{{ item.icon }}</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>
+                {{ item.title }}  
+              </v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+          </div>
+        </v-list>
       </v-navigation-drawer>
 
       <v-app-bar app clipped-left>
@@ -24,17 +43,18 @@
         <v-spacer />
 
         <v-switch v-model="darkMode" label="Dark Mode" style="margin-top: 26px;"></v-switch>
-
+        <div class="toolbar-icons">
         <v-btn icon class="mx-1" v-for="entry in socialEntries" :key="entry.href" :href="entry.href" 
           target="_blank">
           <v-icon> {{ entry.icon }} </v-icon>
         </v-btn>
+        </div>
       </v-app-bar>
 
       <v-content>
         <v-container fluid fill-height>
           <v-layout fill-width>
-            <div class="col-10 mx-auto">
+            <div class="col-10 mx-auto ">
               <slot />
             </div>
           </v-layout>
@@ -87,5 +107,15 @@ body {
 
 .footer {
   font-size: 14px;
+}
+
+@media screen and (max-width: 670px) {
+  .toolbar-icons {
+    display: none;
+  }
+  .col-10 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
 }
 </style>
