@@ -49,7 +49,7 @@
     <v-container grid-list-md text-xs-center>
     <v-layout row wrap>
 
-    <v-card class="mx-auto" max-width="344" outlined>
+    <v-card class="mx-auto mt-4" max-width="344" outlined>
       <v-list-item three-line>
         <v-list-item-content>
           <div class="overline mb-4">Project</div>
@@ -68,7 +68,7 @@
       </v-card-actions>
     </v-card>
 
-    <v-card class="mx-auto" max-width="344" outlined>
+    <v-card class="mx-auto mt-4" max-width="344" outlined>
       <v-list-item three-line>
         <v-list-item-content>
           <div class="overline mb-4">Tutorial</div>
@@ -90,7 +90,7 @@
       </v-card-actions>
     </v-card>
 
-    <v-card class="mx-auto" max-width="344" outlined>
+    <v-card class="mx-auto mt-4" max-width="344" outlined>
       <v-list-item three-line>
         <v-list-item-content>
           <div class="overline mb-4">Project</div>
