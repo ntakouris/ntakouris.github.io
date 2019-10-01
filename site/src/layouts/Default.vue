@@ -73,6 +73,12 @@ import socialEntries from "~/data/social.json"
 
 export default {
   name: "Default",
+  metaInfo: {
+    meta: [
+      { property: "og:title", content: "Zarkopafilis' Personal Website" },
+      { property: "og:type", content: "website" }
+    ]
+  },
   created () {
     this.$vuetify.theme.dark = true
   },
