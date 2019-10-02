@@ -22,7 +22,7 @@ export default function (Vue, { appOptions, router, head, isClient }) {
   const opts = { }
   Vue.use(Vuetify)
   
-  appOptions.vuetify = new Vuetify(opts);
+  appOptions.vuetify = new Vuetify(opts)
 
   Vue.component('Layout', DefaultLayout)
 }
