@@ -18,6 +18,8 @@ export default function (Vue, { appOptions, router, head, isClient }) {
     name: 'keywords',
     content: 'zarkopafilis,theodoros,ntakouris,cv,ceid'
   })
+
+  head.script.push({ src: '/hotjar.js' })
   
   const opts = { }
   Vue.use(Vuetify)
