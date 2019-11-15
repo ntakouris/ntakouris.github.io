@@ -9,6 +9,7 @@
     "deploy": "gh-pages -d dist --branch=master"
   },
   "dependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.0",
     "assets-loader": "^0.5.2",
     "gridsome": "^0.7.0",
     "vuetify": "^2.0.18"
