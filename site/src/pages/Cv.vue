@@ -8,33 +8,77 @@
     <h1>Education</h1>
     <ul>
       <li>
-        In pursuit of <b>Integrated Master of Computer Engineering & Informatics</b> at <i><a href="https://www.ceid.upatras.gr/" target="_blank">University of Patras</a></i>
+        In pursuit of
+        <b>Integrated Master of Computer Engineering & Informatics</b> at
+        <i>
+          <a href="https://www.ceid.upatras.gr/" target="_blank">University of Patras</a>
+        </i>
         Expected Graduation 2021 (Currently in the 4th year of studies)
-        Modules Include: Web Development, Java, Data Structures, 
+        Modules Include: Web Development, Java, Data Structures,
         Distributed Systems & Databases, Numerical Analysis, Data Mining & Statistics
       </li>
       <li>
-        Certificate of Proficiency in English, <i>University of Michigan</i>
+        Certificate of Proficiency in English,
+        <i>University of Michigan</i>
       </li>
     </ul>
 
     <br />
     <h1>Employment</h1>
-    <h3>Intern Android Developer, <a href="https://www.eventora.com/" target="_blank">Eventora</a> (Summer 2016 - 2018)</h3>
+    <h3>
+      Intern Android Developer,
+      <a href="https://www.eventora.com/" target="_blank">Eventora</a> (Summer 2016 - 2018)
+    </h3>
     <ul>
-      <li>Work on the <a href="https://play.google.com/store/apps/details?id=com.eventora.BarcodeScanner" target="_blank">Ticket Scanner</a> & <a href="https://play.google.com/store/apps/details?id=com.eventora.mobile.android" target="_blank">Ticket Wallet</a> apps (500.000+ tickets validated as of now)</li>
-      <li>Redesign the app to use the new Android Architecture Components & Support library, 
-      as well as implement Offline First features</li>
+      <li>
+        Work on the
+        <a
+          href="https://play.google.com/store/apps/details?id=com.eventora.BarcodeScanner"
+          target="_blank"
+        >Ticket Scanner</a> &
+        <a
+          href="https://play.google.com/store/apps/details?id=com.eventora.mobile.android"
+          target="_blank"
+        >Ticket Wallet</a> apps (500.000+ tickets validated as of now)
+      </li>
+      <li>
+        Redesign the app to use the new Android Architecture Components & Support library,
+        as well as implement Offline First features
+      </li>
       <li>Keep up with new Android versions & fix reported bugs, improve performance & compatibility, eliminate crashes</li>
     </ul>
 
     <br />
     <h3>Game & Game Server Development (2011 - 2017)</h3>
     <ul>
-      <li>Publish a <a href="https://store.steampowered.com/app/493650/Deep_Space_Dash/" target="_blank">game on Steam</a> made in Unreal Engine 4 with C++ (4000+ Sales)</li>
-      <li>Contribute to the Unreal Engine 4 by implementing the <a href="https://github.com/EpicGames/UnrealEngine/pull/2740" target="_blank">Local Notification System for Android</a></li>
-      <li>Become a Unreal Engine 4 <a href="https://forums.unrealengine.com/member/38138-zarkopafilis" target="_blank">Community Spotlight Member</a></li>
-      <li>Create <a href="https://github.com/Zarkopafilis/RFS" target="_blank">numerous game server modifications</a> for a grid of Minecraft servers in Java (400 concurrent players at peak)</li>
+      <li>
+        Publish a
+        <a
+          href="https://store.steampowered.com/app/493650/Deep_Space_Dash/"
+          target="_blank"
+        >game on Steam</a> made in Unreal Engine 4 with C++ (4000+ Sales)
+      </li>
+      <li>
+        Contribute to the Unreal Engine 4 by implementing the
+        <a
+          href="https://github.com/EpicGames/UnrealEngine/pull/2740"
+          target="_blank"
+        >Local Notification System for Android</a>
+      </li>
+      <li>
+        Become a Unreal Engine 4
+        <a
+          href="https://forums.unrealengine.com/member/38138-zarkopafilis"
+          target="_blank"
+        >Community Spotlight Member</a>
+      </li>
+      <li>
+        Create
+        <a
+          href="https://github.com/Zarkopafilis/RFS"
+          target="_blank"
+        >numerous game server modifications</a> for a grid of Minecraft servers in Java (400 concurrent players at peak)
+      </li>
     </ul>
 
     <br />
@@ -71,39 +115,87 @@
         </tbody>
       </template>
     </v-simple-table>
-  
+
     <a href="https://github.com/zarkopafilis" target="_blank">Github Account</a>
-    <a style="display: inline; margin-left: 12px;" href="https://medium.com/@zarkopafilis" target="_blank">Technical Articles</a>
+    <a
+      style="display: inline; margin-left: 12px;"
+      href="https://medium.com/@zarkopafilis"
+      target="_blank"
+    >Technical Articles</a>
 
     <br />
     <br />
     <h1>Open Source Activity & Projects</h1>
 
-    <h3><a href="https://uavcan.org/" target="_blank">UAVCAN</a> (150 stars, 1800 commits) (Embedded C++)</h3>
+    <h3>
+      <a
+        href="https://github.com/Zarkopafilis/awesome-dronecraft"
+        target="_blank"
+      >A Complete Autonomous Drones Study Plan</a>
+    </h3>
+    <p>
+      I originally created this as a short to-do list of study topics for becoming a software engineer, 
+      I am creating this list to share my 3 year list of topics that I studied on the side during the 
+      curriculum of a Computer Engineering and Informatics degree. This is a list of short and medium
+      length study topics to obtain knowledge regarding autonomous rotorcraft. The items listed here
+      will give you enough knowledge to be able to understand how they work, their limitations and
+      effort required to make them fly.
+    </p>
+
+    <h3>
+      <a href="https://uavcan.org/" target="_blank">UAVCAN</a> (150 stars, 1800 commits) (Embedded C++)
+    </h3>
     <ul>
-      <li>Optimise the <a href="https://github.com/UAVCAN/libuavcan/pull/198" target="_blank">transmission queue</a> by simplifying frame transfer logic and most importanly,
-        swap out a bottlenecking linked list queue with a custom AVL-Tree implementation, 
-        which supports equal keys, by using a custom block allocator to avoid fragmentation, 
-        in order to improve worse case performance by a large margin</li>
-      <li>After this, I joined the UAVCAN team and I actively participated in the design &
-        implementation of the protocol and tooling accompanying it. 
-        Implementations in C, C++, libraries in Python, a data type definition language 
-        and it's Parser, a <a href="https://github.com/UAVCAN/Yukon" target="_blank">Bus monitoring tool</a> (backend in Python and frontend in JavaScript). 
+      <li>
+        Optimise the
+        <a
+          href="https://github.com/UAVCAN/libuavcan/pull/198"
+          target="_blank"
+        >transmission queue</a> by simplifying frame transfer logic and most importanly,
+        swap out a bottlenecking linked list queue with a custom AVL-Tree implementation,
+        which supports equal keys, by using a custom block allocator to avoid fragmentation,
+        in order to improve worse case performance by a large margin
+      </li>
+      <li>
+        After this, I joined the UAVCAN team and I actively participated in the design &
+        implementation of the protocol and tooling accompanying it.
+        Implementations in C, C++, libraries in Python, a data type definition language
+        and it's Parser, a
+        <a
+          href="https://github.com/UAVCAN/Yukon"
+          target="_blank"
+        >Bus monitoring tool</a> (backend in Python and frontend in JavaScript).
         This is a team of 4-10 people, participating in an open to public weekly dev call,
         communicating and solving any problem that comes up with design and implementation decisions.
       </li>
     </ul>
 
     <br />
-    <h3><a href="https://github.com/Elfocrash/Cosmonaut" target="_blank">Cosmonaut</a> (250 stars, 360 commits) (C# - .Net Core)</h3>
+    <h3>
+      <a href="https://github.com/Elfocrash/Cosmonaut" target="_blank">Cosmonaut</a> (250 stars, 360 commits) (C# - .Net Core)
+    </h3>
     <ul>
-      <li>Create the .Net Core 2 <a href="https://github.com/Elfocrash/Cosmonaut/tree/develop/samples/Cosmonaut.NetCore2WebApi/Controllers" target="_blank">Sample REST API app</a> that supports async CRUD operations with paging using the Cosmonaut wrapper for the CosmosDB SDK</li>
+      <li>
+        Create the .Net Core 2
+        <a
+          href="https://github.com/Elfocrash/Cosmonaut/tree/develop/samples/Cosmonaut.NetCore2WebApi/Controllers"
+          target="_blank"
+        >Sample REST API app</a> that supports async CRUD operations with paging using the Cosmonaut wrapper for the CosmosDB SDK
+      </li>
     </ul>
 
     <br />
-    <h3><a href="https://github.com/src-d/go-mysql-server" target="_blank">src-d/go-mysql-server</a> (850 stars, 1300 commits) (Go)</h3>
+    <h3>
+      <a href="https://github.com/src-d/go-mysql-server" target="_blank">src-d/go-mysql-server</a> (850 stars, 1300 commits) (Go)
+    </h3>
     <ul>
-      <li>Implement some <a href="https://github.com/src-d/go-mysql-server/pulls?utf8=%E2%9C%93&q=zarkopafilis" target="_blank">SQL functions</a> to comply with the MySQL standard (tests included)</li>
+      <li>
+        Implement some
+        <a
+          href="https://github.com/src-d/go-mysql-server/pulls?utf8=%E2%9C%93&q=zarkopafilis"
+          target="_blank"
+        >SQL functions</a> to comply with the MySQL standard (tests included)
+      </li>
       <li>Enhance some parts of the parser</li>
       <li>Report bugs of the implementation that did not have compatibility with the MySQL standard</li>
     </ul>
@@ -124,20 +216,23 @@
     <ul>
       <li>Create a simple Rest API with Roles authentication</li>
       <li>Use a Controller-Service-Repository approach</li>
-      <li>Features Include: Store testing results along with user data, 
-        Provide some training improvement insight on a dashboard per user, User search</li>
+      <li>
+        Features Include: Store testing results along with user data,
+        Provide some training improvement insight on a dashboard per user, User search
+      </li>
     </ul>
 
     <br />
     <h1>Hobbies</h1>
     <ul>
-      <li>Express love for Software Engineering by contributing to Open Source projects
-        (Hacktoberfest!) and Publishing of Software Engineering Articles</li>
+      <li>
+        Express love for Software Engineering by contributing to Open Source projects
+        (Hacktoberfest!) and Publishing of Software Engineering Articles
+      </li>
       <li>Voxxed Days Athens 2018 Volunteer (3 consecutive years)</li>
       <li>Drone (UAV) Pilot</li>
       <li>I enjoy sports</li>
     </ul>
-
   </Layout>
 </template>
 

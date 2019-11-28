@@ -1,6 +1,8 @@
 <template>
   <Layout>
     <ProjectList />
+
+    <br /><br />
   </Layout>
 </template>
 
