@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="cv-head">
-      <p>Theodoros Ntakouris CV</p>
+      <p>Theodoros Ntakouris / CV</p>
       <a href="mailto:zarkopafilis@gmail.com" target="_blank">zarkopafilis@gmail.com</a>
     </div>
 
@@ -14,70 +14,12 @@
           <a href="https://www.ceid.upatras.gr/" target="_blank">University of Patras</a>
         </i>
         Expected Graduation 2021 (Currently in the 4th year of studies)
-        Modules Include: Web Development, Java, Data Structures,
-        Distributed Systems & Databases, Numerical Analysis, Data Mining & Statistics
+        Modules Include: Computer Vision, AI, Data Mining & Statistics,
+        Data Structures, Databases, Embedded Systems, Software Engineering
       </li>
       <li>
         Certificate of Proficiency in English,
         <i>University of Michigan</i>
-      </li>
-    </ul>
-
-    <br />
-    <h1>Employment</h1>
-    <h3>
-      Intern Android Developer,
-      <a href="https://www.eventora.com/" target="_blank">Eventora</a> (Summer 2016 - 2018)
-    </h3>
-    <ul>
-      <li>
-        Work on the
-        <a
-          href="https://play.google.com/store/apps/details?id=com.eventora.BarcodeScanner"
-          target="_blank"
-        >Ticket Scanner</a> &
-        <a
-          href="https://play.google.com/store/apps/details?id=com.eventora.mobile.android"
-          target="_blank"
-        >Ticket Wallet</a> apps (500.000+ tickets validated as of now)
-      </li>
-      <li>
-        Redesign the app to use the new Android Architecture Components & Support library,
-        as well as implement Offline First features
-      </li>
-      <li>Keep up with new Android versions & fix reported bugs, improve performance & compatibility, eliminate crashes</li>
-    </ul>
-
-    <br />
-    <h3>Game & Game Server Development (2011 - 2017)</h3>
-    <ul>
-      <li>
-        Publish a
-        <a
-          href="https://store.steampowered.com/app/493650/Deep_Space_Dash/"
-          target="_blank"
-        >game on Steam</a> made in Unreal Engine 4 with C++ (4000+ Sales)
-      </li>
-      <li>
-        Contribute to the Unreal Engine 4 by implementing the
-        <a
-          href="https://github.com/EpicGames/UnrealEngine/pull/2740"
-          target="_blank"
-        >Local Notification System for Android</a>
-      </li>
-      <li>
-        Become a Unreal Engine 4
-        <a
-          href="https://forums.unrealengine.com/member/38138-zarkopafilis"
-          target="_blank"
-        >Community Spotlight Member</a>
-      </li>
-      <li>
-        Create
-        <a
-          href="https://github.com/Zarkopafilis/RFS"
-          target="_blank"
-        >numerous game server modifications</a> for a grid of Minecraft servers in Java (400 concurrent players at peak)
       </li>
     </ul>
 
@@ -185,6 +127,39 @@
     </ul>
 
     <br />
+    <h3>Game & Game Server Development (2011 - 2017)</h3>
+    <ul>
+      <li>
+        Publish a
+        <a
+          href="https://store.steampowered.com/app/493650/Deep_Space_Dash/"
+          target="_blank"
+        >game on Steam</a> made in Unreal Engine 4 with C++ (4000+ Sales)
+      </li>
+      <li>
+        Contribute to the Unreal Engine 4 by implementing the
+        <a
+          href="https://github.com/EpicGames/UnrealEngine/pull/2740"
+          target="_blank"
+        >Local Notification System for Android</a>
+      </li>
+      <li>
+        Become a Unreal Engine 4
+        <a
+          href="https://forums.unrealengine.com/member/38138-zarkopafilis"
+          target="_blank"
+        >Community Spotlight Member</a>
+      </li>
+      <li>
+        Create
+        <a
+          href="https://github.com/Zarkopafilis/RFS"
+          target="_blank"
+        >numerous game server modifications</a> for a grid of Minecraft servers in Java (400 concurrent players at peak)
+      </li>
+    </ul>
+
+    <br />
     <h3>
       <a href="https://github.com/src-d/go-mysql-server" target="_blank">src-d/go-mysql-server</a> (850 stars, 1300 commits) (Go)
     </h3>
@@ -220,6 +195,31 @@
         Features Include: Store testing results along with user data,
         Provide some training improvement insight on a dashboard per user, User search
       </li>
+    </ul>
+
+    <br />
+    <h1>Employment</h1>
+    <h3>
+      Intern Android Developer,
+      <a href="https://www.eventora.com/" target="_blank">Eventora</a> (Summer 2016 - 2018)
+    </h3>
+    <ul>
+      <li>
+        Work on the
+        <a
+          href="https://play.google.com/store/apps/details?id=com.eventora.BarcodeScanner"
+          target="_blank"
+        >Ticket Scanner</a> &
+        <a
+          href="https://play.google.com/store/apps/details?id=com.eventora.mobile.android"
+          target="_blank"
+        >Ticket Wallet</a> apps (500.000+ tickets validated as of now)
+      </li>
+      <li>
+        Redesign the app to use the new Android Architecture Components & Support library,
+        as well as implement Offline First features
+      </li>
+      <li>Keep up with new Android versions & fix reported bugs, improve performance & compatibility, eliminate crashes</li>
     </ul>
 
     <br />
