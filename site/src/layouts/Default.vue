@@ -62,7 +62,7 @@
       </v-content>
 
       <v-footer app inset>
-        <span class="footer">Copyright &copy; Theodoros Ntakouris 2019</span>
+        <span class="footer">Copyright &copy; Theodoros Ntakouris</span>
       </v-footer>
     </v-app>
 </template>
@@ -75,7 +75,7 @@ export default {
   name: "Default",
   metaInfo: {
     meta: [
-      { property: "og:title", content: "Zarkopafilis' Personal Website" },
+      { property: "og:title", content: "Theodoros Ntakouris Personal Website" },
       { property: "og:type", content: "website" }
     ]
   },

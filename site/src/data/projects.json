@@ -9,12 +9,9 @@
         "tags": ["drones", "autonomous"]
     },
     {
-        "title": "algotrading-api",
-        "description": "A 3 Part Project: Data Acquisition - Functional Rest API - Machine Learning",
+        "title": "bitbot",
+        "description": "Statistical arbitrage trading opportunities paired with the predictions of deep learning models. Currently focused on cryptocurrency data.",
         "type": "project",
-        "urls": {
-            "source": "https://github.com/bitaesthetics/algotrading-api"
-        },
         "tags": ["ai", "ml", "dl", "python"]
     },
     {

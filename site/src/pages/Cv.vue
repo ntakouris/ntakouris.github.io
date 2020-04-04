@@ -44,7 +44,7 @@
           </tr>
           <tr>
             <td>Frameworks</td>
-            <td>ASP.Net Core 2 & 3 - Vue.js - Keras - Flask - Spring Boot - Android (Native + React Native) - Unreal Engine 4</td>
+            <td>ASP.Net Core 2 & 3 - Vue.js - Tensorflow + Keras - Flask - Spring Boot - Android (Native + React Native) - Unreal Engine 4</td>
           </tr>
           <tr>
             <td>VCS - Build Systems & Related</td>
@@ -73,7 +73,7 @@
       <a
         href="https://github.com/Zarkopafilis/awesome-dronecraft"
         target="_blank"
-      >A Complete Autonomous Drones Study Plan</a>
+      >A Complete Autonomous Drones Study Plan (2019-2020)</a>
     </h3>
     <p>
       I originally created this as a short to-do list of study topics for becoming a software engineer, 
@@ -82,6 +82,15 @@
       length study topics to obtain knowledge regarding autonomous rotorcraft. The items listed here
       will give you enough knowledge to be able to understand how they work, their limitations and
       effort required to make them fly.
+    </p>
+
+    <h3>
+      Cryptocurrency Trading Bot (2019-2020)
+    </h3>
+    <p>
+      Designed and built a deep learning model training-evaluation-selection pipeline for historical cryptocurrency market and blockchain data.
+      Ensured that the model is portable and can be easily deployed in term of configuration files and automatic serialization of the preprocess pipeline.
+      Integrated this prediction engine with the LEAN-QuantConnect ecosystem where several statistical arbitrage strategies were implemented.
     </p>
 
     <h3>
@@ -230,8 +239,8 @@
         (Hacktoberfest!) and Publishing of Software Engineering Articles
       </li>
       <li>Voxxed Days Athens 2018 Volunteer (3 consecutive years)</li>
-      <li>Drone (UAV) Pilot</li>
-      <li>I enjoy sports</li>
+      <li>Photography, Audiovisual Arts through applied computer engineering</li>
+      <li>Sports</li>
     </ul>
   </Layout>
 </template>
