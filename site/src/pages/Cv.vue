@@ -94,6 +94,18 @@
     </p>
 
     <h3>
+      Various small scale machine and deep learning projects (2019-2020)
+    </h3>
+    <ul>
+      <li>Wine Quality Prediction from Chemical Indicators</li>
+      <li>Shop & Item Sales Forecasting</li>
+      <li>Movie - User Collaborative Filtering Recommendations</li>
+      <li>Generative Chatbot text based on previous Discord Server chat logs</li>
+      <li>Deepfake, Music Generation</li>
+      <li>Common Model Pruning and Optimization through Intel OpenVINO</li>
+    </ul> <br />
+
+    <h3>
       <a href="https://uavcan.org/" target="_blank">UAVCAN</a> (150 stars, 1800 commits) (Embedded C++)
     </h3>
     <ul>

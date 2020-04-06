@@ -15,6 +15,12 @@
         "tags": ["ai", "ml", "dl", "python"]
     },
     {
+        "title": "deep learning experiments",
+        "description": "Various small scale projects: wine quality prediction, sales forecasting, model pruning and optimization, collaborative filtering, deepfakes, text generation, music generation",
+        "type": "project",
+        "tags": ["ai", "ml", "dl", "python"]
+    },
+    {
         "title": ".Net Core Rest API",
         "description": "A big spectrum of topics is covered. Articles and Youtube videos in collab with @elfocrash",
         "type": "tutorial",
