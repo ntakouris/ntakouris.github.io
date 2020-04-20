@@ -25,7 +25,7 @@
 
     <br />
     <h1 class="mb-1">Skills</h1>
-    <v-simple-table dark>
+    <v-simple-table>
       <template v-slot:default>
         <thead>
           <tr>

@@ -1,35 +1,28 @@
 <template>
   <Layout>
-    <div>
-      <h1>Curiosity - Creativity - Contribution</h1> <br />
-      <h4>
-        Main objectives: <br />
-      </h4>
-      <ul>
-        <li>Software Engineering and <a href="http://manifesto.softwarecraftsmanship.org/">Craftsmanship</a></li>
-        <li>Deep Learning, Autonomous Systems</li>
-        <li>Unmanned Aviation</li>
-        <li>Quantum Computing</li>
-      </ul>
-
-      <br />
-      <i>
-        Drones &otimes; AI &otimes; Autonomous Systems
-      </i>
-    </div>
-
+    <h1>Curiosity - Creativity - Contribution</h1>
     <br />
+
+    <ul>
+      <li>Software &amp; AI Engineering</li>
+      <li>Deep Learning, Autonomous Systems</li>
+      <li>Open Source Software and Research</li>
+      <li>Unmanned Aviation</li>
+      <li>Curiosity driven, passionate about code, technology and their effects on humanity </li>
+    </ul>
+    <br /><br />
 
     <h1>Summary</h1>
     <p>
-      Computer Engineering & Informatics Student at University Of Patras <br />
-      Software Engineer, Active Open Source Contributor  <br />
-      Java, C#, JavaScript, Python  <br />
-      Spring Boot, .Net Core, Vue, Deep Learning  <br />
-      Curiosity driven, passionate about code, technology and their effects on humanity  <br />
+      Computer Engineering and Informatics Student - University of Patras <br />
+      Python, C#, JavaScript, Java  <br />
+      Keras &amp; Tensorflow, ASP.Net Core, Vue.js, Android <br />
+      Deep Learning, UAVs, Autonomous Systems <br />
       <br />
       <small>Occasionally playing competitive video games</small>
     </p>
+
+    <v-btn outlined>View CV</v-btn>
 
     <div style="display: flex; flex-direction: row-reverse; flex-wrap: wrap;">
       <h3>Standing on the shoulders of giants</h3>
@@ -38,8 +31,9 @@
       <i>Isaac Newton 15 February 1676</i>
     </div>
 
+
     <br /><br />
-    <h1>/projects</h1>
+    <h1>Projects</h1>
     <br />
 
     <ProjectList />
