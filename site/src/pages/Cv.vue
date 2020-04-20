@@ -14,7 +14,7 @@
           <a href="https://www.ceid.upatras.gr/" target="_blank">University of Patras</a>
         </i>
         Expected Graduation 2021 (Currently in the 4th year of studies)
-        Modules Include: Computer Vision, AI, Data Mining & Statistics,
+        Modules Include: Deep Learning, Computer Vision, AI, Data Mining & Statistics,
         Data Structures, Databases, Embedded Systems, Software Engineering
       </li>
       <li>
@@ -36,7 +36,7 @@
         <tbody>
           <tr>
             <td>Programming Languages</td>
-            <td>Java - Kotlin - C# - JavaScript - Python</td>
+            <td>Python - C# - JavaScript - Java</td>
           </tr>
           <tr>
             <td>Databases</td>
@@ -44,7 +44,7 @@
           </tr>
           <tr>
             <td>Frameworks</td>
-            <td>ASP.Net Core 2 & 3 - Vue.js - Tensorflow + Keras - Flask - Spring Boot - Android (Native + React Native) - Unreal Engine 4</td>
+            <td>Tensorflow + Keras - Scikit Learn - Pandas - ASP.Net Core - Vue.js</td>
           </tr>
           <tr>
             <td>VCS - Build Systems & Related</td>
@@ -194,28 +194,6 @@
       </li>
       <li>Enhance some parts of the parser</li>
       <li>Report bugs of the implementation that did not have compatibility with the MySQL standard</li>
-    </ul>
-
-    <br />
-    <h3>Geolocation based Social Network App for Android (Java - Kotlin)</h3>
-    <ul>
-      <li>Implement an offline-first app by using Room & Retrofit</li>
-      <li>Use MVVM with a mix of Observables and LiveData</li>
-      <li>Do cross fragment/activity communication by EventBus</li>
-      <li>Extensively use Dagger 2, Architecture Components & Design support library</li>
-      <li>Consume a Rest API & handle authentication with JSON Web Tokens</li>
-      <li>Features Include: Login/Signup, Post viewing, Likes, Comments, Friends & Blocking, Post Uploading (with image)</li>
-    </ul>
-
-    <br />
-    <h3>Reflex Testing App Backend with Spring Boot (Java - Raspberry Pi)</h3>
-    <ul>
-      <li>Create a simple Rest API with Roles authentication</li>
-      <li>Use a Controller-Service-Repository approach</li>
-      <li>
-        Features Include: Store testing results along with user data,
-        Provide some training improvement insight on a dashboard per user, User search
-      </li>
     </ul>
 
     <br />

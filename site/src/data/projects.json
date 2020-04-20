@@ -89,16 +89,4 @@
         "type": "project",
         "tags": ["ue4", "cpp", "android", "java"]
     },
-    {
-        "title": "geolocation-social",
-        "description": "Geolocation based Social Network Android App",
-        "type": "app",
-        "tags": ["android", "java", "kotlin"]
-    },
-    {
-        "title": "reflex-testing-solution",
-        "description": "Features Include: Store testing results along with user data, Provide some training improvement insight on a dashboard per user, User search",
-        "type": "project",
-        "tags": ["web", "java", "springboot"]
-    }
 ]
