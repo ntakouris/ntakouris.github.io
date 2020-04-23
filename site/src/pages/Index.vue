@@ -22,7 +22,7 @@
       <small>Occasionally playing competitive video games</small>
     </p>
 
-    <v-btn outlined>View CV</v-btn>
+    <v-btn outlined href="/cv">View CV</v-btn> <br /><br /><br />
 
     <div style="display: flex; flex-direction: row-reverse; flex-wrap: wrap;">
       <h3>Standing on the shoulders of giants</h3>
@@ -31,7 +31,7 @@
       <i>Isaac Newton 15 February 1676</i>
     </div>
 
-
+    <br /><br />
     <br /><br />
     <h1>Projects</h1>
     <br />
