@@ -16,7 +16,7 @@
     },
     {
         "title": "deep learning experiments",
-        "description": "Various small scale projects: wine quality prediction, sales forecasting, model pruning and optimization, collaborative filtering, deepfakes, text generation, music generation",
+        "description": "Various small scale projects: bitcoin price prediction, wine quality prediction, sales forecasting, model pruning and optimization, collaborative filtering, deepfakes, text generation, spam classification",
         "type": "project",
         "tags": ["ai", "ml", "dl", "python"]
     },
