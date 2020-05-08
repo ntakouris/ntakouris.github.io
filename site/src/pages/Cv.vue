@@ -1,11 +1,18 @@
 <template>
   <Layout>
     <div class="cv-head">
-      <p>Theodoros Ntakouris / CV</p>
-      <a href="mailto:zarkopafilis@gmail.com" target="_blank">zarkopafilis@gmail.com</a>
+      <p>Theodoros Ntakouris</p> 
+      &nbsp;<a href="mailto:zarkopafilis@gmail.com" target="_blank">zarkopafilis@gmail.com</a> 
+      &nbsp;<a href="https://github.com/zarkopafilis" target="_blank">Github Account</a>
     </div>
 
-    <h1>Education</h1>
+    <h2>Summary</h2>
+    <p>
+      Curiosity and results-driven engineer with a strong focus on machine and deep learning. Keeps up to date with latest research advancements in order to apply them to real world problems. Open source contributor and passionate about good software, statistics and data engineering practices.
+      Occasionally stuck in local maxima.
+    </p>
+
+    <h2>Education</h2>
     <ul>
       <li>
         In pursuit of
@@ -13,18 +20,12 @@
         <i>
           <a href="https://www.ceid.upatras.gr/" target="_blank">University of Patras</a>
         </i>
-        Expected Graduation 2021 (Currently in the 4th year of studies)
-        Modules Include: Deep Learning, Computer Vision, AI, Data Mining & Statistics,
-        Data Structures, Databases, Embedded Systems, Software Engineering
-      </li>
-      <li>
-        Certificate of Proficiency in English,
-        <i>University of Michigan</i>
+        .&nbsp; Expected Graduation 2021 (5 year curriculum)
       </li>
     </ul>
 
     <br />
-    <h1 class="mb-1">Skills</h1>
+    <h2 class="mb-1">Skills</h2>
     <v-simple-table>
       <template v-slot:default>
         <thead>
@@ -36,23 +37,19 @@
         <tbody>
           <tr>
             <td>Programming Languages</td>
-            <td>Python - C# - JavaScript - Java</td>
+            <td>Python - C# - JavaScript - Java (up to 8)</td>
           </tr>
           <tr>
             <td>Databases</td>
-            <td>SQL - NoSQL (MySQL/MariaDB - CosmosDB)</td>
+            <td>MySQL - MongoDB</td>
           </tr>
           <tr>
-            <td>Frameworks</td>
-            <td>Tensorflow + Keras - Scikit Learn - Pandas - ASP.Net Core - Vue.js</td>
+            <td>Experience with</td>
+            <td>Keras - Tensorflow - PyTorch - Pandas - Scikit-Learn - Numpy - ASP.Net Core - Vue</td>
           </tr>
           <tr>
-            <td>VCS - Build Systems & Related</td>
-            <td>Git - Gradle - Maven - Webpack - CI/CD - Docker</td>
-          </tr>
-          <tr>
-            <td>Programming Paradigms</td>
-            <td>Object Oriented - Functional - Async - Design Patterns - ORM - CQRS - Offline First</td>
+            <td>Other</td>
+            <td>Async Programming - REST APIs - Testing - Git - Gradle - Design Patterns - ORM - CQRS - Continuous Integration - Docker</td>
           </tr>
         </tbody>
       </template>
@@ -64,144 +61,74 @@
       href="https://medium.com/@zarkopafilis"
       target="_blank"
     >Technical Articles</a>
-
     <br />
     <br />
-    <h1>Open Source Activity & Projects</h1>
 
-    <h3>
-      <a
-        href="https://github.com/Zarkopafilis/awesome-dronecraft"
-        target="_blank"
-      >A Complete Autonomous Drones Study Plan (2019-2020)</a>
-    </h3>
-    <p>
-      I originally created this as a short to-do list of study topics for becoming a software engineer, 
-      I am creating this list to share my 3 year list of topics that I studied on the side during the 
-      curriculum of a Computer Engineering and Informatics degree. This is a list of short and medium
-      length study topics to obtain knowledge regarding autonomous rotorcraft. The items listed here
-      will give you enough knowledge to be able to understand how they work, their limitations and
-      effort required to make them fly.
-    </p>
+    <h2>Machine Learning Projects (2019 - ongoing)</h2>
 
-    <h3>
-      Cryptocurrency Trading Bot (2019-2020)
-    </h3>
-    <p>
-      Designed and built a deep learning model training-evaluation-selection pipeline for historical cryptocurrency market and blockchain data.
-      Ensured that the model is portable and can be easily deployed in term of configuration files and automatic serialization of the preprocess pipeline.
-      Integrated this prediction engine with the LEAN-QuantConnect ecosystem where several statistical arbitrage strategies were implemented.
-    </p>
-
-    <h3>
-      Various small scale machine and deep learning projects (2019-2020)
-    </h3>
+    <h4>Bitcoin Market Data Prediction (Keras)</h4>
     <ul>
-      <li>Wine Quality Prediction from Chemical Indicators</li>
-      <li>Shop & Item Sales Forecasting</li>
-      <li>Movie - User Collaborative Filtering Recommendations</li>
-      <li>Generative Chatbot text based on previous Discord Server chat logs</li>
-      <li>Deepfake, Music Generation</li>
-      <li>Common Model Pruning and Optimization through Intel OpenVINO</li>
-    </ul> <br />
+      <li>Created a configuration-file based model training, evaluation and hyperparameter exploration system along with result visualization</li>
+      <li>Used bitcoin exchange data to predict next-day results. On-Chain Analytics and possibly order book data will be also added in the future </li>
+      <li>Enhanced model performance by feature engineering technical indicators</li>
+      <li>A deployment and backtesting trading bot is under construction</li>
+    </ul>
+    <br />
 
-    <h3>
-      <a href="https://uavcan.org/" target="_blank">UAVCAN</a> (150 stars, 1800 commits) (Embedded C++)
-    </h3>
+    <h4>Shop & Item Sales Forecasting (Keras, LSTM)</h4>
     <ul>
-      <li>
-        Optimise the
-        <a
-          href="https://github.com/UAVCAN/libuavcan/pull/198"
-          target="_blank"
-        >transmission queue</a> by simplifying frame transfer logic and most importanly,
-        swap out a bottlenecking linked list queue with a custom AVL-Tree implementation,
-        which supports equal keys, by using a custom block allocator to avoid fragmentation,
-        in order to improve worse case performance by a large margin
-      </li>
-      <li>
-        After this, I joined the UAVCAN team and I actively participated in the design &
-        implementation of the protocol and tooling accompanying it.
-        Implementations in C, C++, libraries in Python, a data type definition language
-        and it's Parser, a
-        <a
-          href="https://github.com/UAVCAN/Yukon"
-          target="_blank"
-        >Bus monitoring tool</a> (backend in Python and frontend in JavaScript).
-        This is a team of 4-10 people, participating in an open to public weekly dev call,
-        communicating and solving any problem that comes up with design and implementation decisions.
-      </li>
+      <li>Processed (shop, item, quantity, date) sale tuples and train a neural network to predict future monthly sales for each shop and item pair</li>
+    </ul>
+    <br />
+
+    <h4>Movie Recommendations through Collaborative Filtering (Keras, MLP, Genetic Algorithm)</h4>
+    <ul>
+      <li>Trained a neural network that produces rankings for each user</li>
+      <li>Took a genetic-algorithm approach exploring how different encodings and generation operations effect the results</li>
+      <li>Used Train-Validation Splits to select the best model parameters</li>
+    </ul>
+    <br />
+
+    <h4>Generative Chatbot text based on previous Discord Server chat logs (Pytorch)</h4>
+    <ul>
+      <li>Trained a generative LSTM model with teacher forcing to predict the next messages from exported chat logs</li>
+      <li>Leveraged fast-text word embeddings as a form of transfer learning</li>
+    </ul>
+    <br />
+
+    <h4>Deepfake Generation, GANs (Keras)</h4>
+    <ul>
+      <li>Used latest pretrained models such us First Order Motion Models for Image Animation to generate a few deepfakes</li>
+      <li>Used SinGAN to generate some art for a university festival </li>
+    </ul>
+    <br />
+
+    <h4>Spam Comment Classification (Keras, Tf-Idf)</h4>
+    <ul>
+      <li>Tokenized, Created Vocabulary, Removed stopwords and produced the tf-idf matrix for the comment text corpus</li>
+      <li>Used a deep dense neural network to perform binary classification</li>
+    </ul>
+    <br />
+
+    <h4>Wine Quality Prediction from Chemical Indicators (Scikit-Learn, SVM)</h4>
+    <ul>
+      <li>Performed a grid search to fine-tune the SVM classification task</li>
+      <li>Compared data imputation techniques (Mean, Nearest-Neighbour, Drop-Column)</li>
+    </ul>
+    <br />
+
+    <h4>Model Pruning and Optimization through Intel OpenVINO (Tensorflow)</h4>
+    <ul>
+      <li>Intel Edge AI Udacity Scholarship Course</li>
+      <li>Performed Model Pruning and Optimizing through OpenVINO (exclusively for intel-based edge ai products)</li>
     </ul>
 
     <br />
-    <h3>
-      <a href="https://github.com/Elfocrash/Cosmonaut" target="_blank">Cosmonaut</a> (250 stars, 360 commits) (C# - .Net Core)
-    </h3>
-    <ul>
-      <li>
-        Create the .Net Core 2
-        <a
-          href="https://github.com/Elfocrash/Cosmonaut/tree/develop/samples/Cosmonaut.NetCore2WebApi/Controllers"
-          target="_blank"
-        >Sample REST API app</a> that supports async CRUD operations with paging using the Cosmonaut wrapper for the CosmosDB SDK
-      </li>
-    </ul>
-
-    <br />
-    <h3>Game & Game Server Development (2011 - 2017)</h3>
-    <ul>
-      <li>
-        Publish a
-        <a
-          href="https://store.steampowered.com/app/493650/Deep_Space_Dash/"
-          target="_blank"
-        >game on Steam</a> made in Unreal Engine 4 with C++ (4000+ Sales)
-      </li>
-      <li>
-        Contribute to the Unreal Engine 4 by implementing the
-        <a
-          href="https://github.com/EpicGames/UnrealEngine/pull/2740"
-          target="_blank"
-        >Local Notification System for Android</a>
-      </li>
-      <li>
-        Become a Unreal Engine 4
-        <a
-          href="https://forums.unrealengine.com/member/38138-zarkopafilis"
-          target="_blank"
-        >Community Spotlight Member</a>
-      </li>
-      <li>
-        Create
-        <a
-          href="https://github.com/Zarkopafilis/RFS"
-          target="_blank"
-        >numerous game server modifications</a> for a grid of Minecraft servers in Java (400 concurrent players at peak)
-      </li>
-    </ul>
-
-    <br />
-    <h3>
-      <a href="https://github.com/src-d/go-mysql-server" target="_blank">src-d/go-mysql-server</a> (850 stars, 1300 commits) (Go)
-    </h3>
-    <ul>
-      <li>
-        Implement some
-        <a
-          href="https://github.com/src-d/go-mysql-server/pulls?utf8=%E2%9C%93&q=zarkopafilis"
-          target="_blank"
-        >SQL functions</a> to comply with the MySQL standard (tests included)
-      </li>
-      <li>Enhance some parts of the parser</li>
-      <li>Report bugs of the implementation that did not have compatibility with the MySQL standard</li>
-    </ul>
-
-    <br />
-    <h1>Employment</h1>
-    <h3>
-      Intern Android Developer,
-      <a href="https://www.eventora.com/" target="_blank">Eventora</a> (Summer 2016 - 2018)
-    </h3>
+    <h2>Employment</h2>
+    <h4>
+      Android Developer,
+      <a href="https://www.eventora.com/" target="_blank">Eventora</a> (Summer 2016 - 2018, Java)
+    </h4>
     <ul>
       <li>
         Work on the
@@ -212,25 +139,79 @@
         <a
           href="https://play.google.com/store/apps/details?id=com.eventora.mobile.android"
           target="_blank"
-        >Ticket Wallet</a> apps (500.000+ tickets validated as of now)
+        >Ticket Wallet</a> apps with over 1 million tickets validated</li>
+        <li>App redesign & architecture with addition of offline first features</li>
+        <li>Vertical maintenance & upkeep of the project</li>
+    </ul>
+    <br />
+
+    <h4>Game & Game Server Development (2011 - 2016, Java, C++) - Freelancing</h4>
+    <ul>
+      <li>Published a game on Steam, made in Unreal Engine 4 with C++ (4000+ Sales)</li>
+      <li>Unreal Engine 4 contribution by implementing the Android local notification system </li>
+      <li>Created a series of game server modifications for a grid of Minecraft servers(400 concurrent players at peak, Java)</li>
+    </ul>
+    <br />
+
+    <h2>Open Source Contributions</h2>
+    <h4>
+      <a
+        href="https://github.com/Zarkopafilis/awesome-dronecraft"
+        target="_blank"
+      >A Complete Autonomous Drones Study Plan (2019-2020)</a>
+    </h4>
+    <p>
+      I originally created this as a short to-do list of study topics for becoming a software engineer, 
+      I am creating this list to share my 3 year list of topics that I studied on the side during the 
+      curriculum of a Computer Engineering and Informatics degree. This is a list of short and medium
+      length study topics to obtain knowledge regarding autonomous rotorcraft. The items listed here
+      will give you enough knowledge to be able to understand how they work, their limitations and
+      effort required to make them fly.
+    </p>
+    <br />
+
+    <h4>UAVCAN / libuavcan, Yukon (150 stars, 1800 commits, Embedded C++, Python, JavaScript)</h4>
+    <ul>
+      <li>Optimised the transmission queue by simplifying frame transfer logic and most importanly, swap out a bottlenecking linked list queue with a custom AVL-Tree implementation, which supports equal keys, by using a custom block allocator to avoid fragmentation, in order to improve worse case performance by a large margin</li>
+      <li>Collaborated with the hardware and python api team to design the new web-based bus inspection tool</li>
+      <li>Architected a flask backend and a vue frontend solution, including the usage of server sent events</li>
+    </ul>
+    <br />
+
+    <h4>Elfocrash/Cosmonaut (70 stars, 250 commits) (C#)</h4>
+    <ul>
+      <li>Created the .Net Core 2 Sample REST API app that supports async CRUD operations with paging using the Cosmonaut wrapper for the CosmosDB SDK
       </li>
-      <li>
-        Redesign the app to use the new Android Architecture Components & Support library,
-        as well as implement Offline First features
-      </li>
-      <li>Keep up with new Android versions & fix reported bugs, improve performance & compatibility, eliminate crashes</li>
+    </ul>
+    <br />
+
+    <h4>src-d/go-mysql-server (130 stars, 900 commits) (Go)</h4>
+    <ul>
+      <li>Implement some SQL functions to comply with the MySQL standard (unit tests included)</li>
+      <li>Make some parts of the SQL parser more robust</li>
     </ul>
 
     <br />
-    <h1>Hobbies</h1>
+    <h2>Other Projects</h2>
+    <h4>Geolocation based Social Network App Frontend for Android (Java, Kotlin rewrite)</h4>
+    <ul>
+      <li>Implemented an offline-first app by using Room & Retrofit</li>
+      <li>Used MVVM with a mix of Observables and LiveData</li>
+      <li>Performed cross fragment/activity communication by EventBus</li>
+      <li>Extensively used Dagger 2, Architecture Components & the Design support library</li>
+      <li>Consume a Rest API & handle authentication with Jason Web Tokens</li>
+      <li>Features Include: Login/Signup, Post viewing, Likes, Comments, Friends & Blocking, Post Uploading (with image)</li>
+    </ul>
+
+    <br />
+    <h2>Hobbies</h2>
     <ul>
       <li>
         Express love for Software Engineering by contributing to Open Source projects
-        (Hacktoberfest!) and Publishing of Software Engineering Articles
+        (Hacktoberfest!) and Publishing of Software Engineering Articles on <a href="https://medium.com/@zarkopafilis">medium.com</a> (Averaging 6K article views per month)
       </li>
       <li>Voxxed Days Athens 2018 Volunteer (3 consecutive years)</li>
       <li>Photography, Audiovisual Arts through applied computer engineering</li>
-      <li>Sports</li>
     </ul>
   </Layout>
 </template>
