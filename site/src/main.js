@@ -35,7 +35,6 @@ export default function (Vue, { appOptions, router, head, isClient }) {
   appOptions.vuetify = new Vuetify(opts)
 
   Vue.use(Vuetify)
-  
 
   Vue.component('Layout', DefaultLayout)
 }
