@@ -38,7 +38,7 @@
         <v-app-bar-nav-icon @click.stop="drawer = !drawer">
           <v-icon>menu</v-icon>
         </v-app-bar-nav-icon>
-        <v-toolbar-title><g-link to="/" style="text-decoration: none; color: inherit;">Theodoros Ntakouris</g-link></v-toolbar-title>
+        <v-toolbar-title>Theodoros Ntakouris</v-toolbar-title>
 
         <v-spacer />
 
