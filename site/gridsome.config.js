@@ -1,7 +1,7 @@
 module.exports = {
   siteName: 'zarkopafilis',
   siteUrl: 'https://zarkopafilis.github.io',
-  titleTemplate: '%s - zarkopafilis',
+  titleTemplate: '%s | Theodoros Ntakouris',
   plugins: [
     {
       use: '@gridsome/plugin-google-analytics',

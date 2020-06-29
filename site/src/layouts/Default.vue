@@ -15,7 +15,7 @@
         </v-list>
 
         <br />
-        <v-divider :inset="inset"></v-divider>
+        <v-divider></v-divider>
         <v-subheader>Social</v-subheader>
 
         <v-list dense>
@@ -38,11 +38,10 @@
         <v-app-bar-nav-icon @click.stop="drawer = !drawer">
           <v-icon>menu</v-icon>
         </v-app-bar-nav-icon>
-        <v-toolbar-title>@zarkopafilis</v-toolbar-title>
+        <v-toolbar-title><g-link to="/" style="text-decoration: none; color: inherit;">Theodoros Ntakouris</g-link></v-toolbar-title>
 
         <v-spacer />
 
-        <v-switch v-model="darkMode" label="Dark Mode" style="margin-top: 26px;"></v-switch>
         <div class="toolbar-icons">
         <v-btn icon class="mx-1" v-for="entry in socialEntries" :key="entry.href" :href="entry.href" 
           target="_blank">
@@ -74,31 +73,40 @@ import socialEntries from "~/data/social.json"
 export default {
   name: "Default",
   metaInfo: {
+    description: "Curiosity - Creativity - Contribution. Software and Machine Learning Engineering.",
     meta: [
-      { property: "og:title", content: "Theodoros Ntakouris Personal Website" },
+      { property: "og:title", content: "Theodoros Ntakouris" },
       { property: "og:type", content: "website" }
     ]
-  },
-  created () {
-    this.$vuetify.theme.dark = true
   },
   data() {
     return {
       menuItems,
       socialEntries,
-      darkMode: true,
       drawer: null
     };
-  },
-  watch: {
-    darkMode(newVal) {
-      this.$vuetify.theme.dark = newVal
-    }
   }
 };
 </script>
 
 <style>
+
+.v-toolbar__content {
+  background-color: #0d1a26;
+}
+
+.v-navigation-drawer__content {
+  background-color: #0d1a26;
+}
+
+.v-data-table, .v-card {
+  background-color: #0d1a26 !important;
+}
+
+.v-content, footer {
+  background-color: #112233 !important;
+}
+
 html {
   scroll-behavior: smooth;
 }

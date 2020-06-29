@@ -1,8 +1,14 @@
 [
     {
-        "title": "Index",
+        "title": "About",
         "icon": "home",
-        "href": "/"
+        "href": "/about"
+    },
+    {
+        "title": "Projects",
+        "icon": "code",
+        "href": "/projects",
+        "sub": true
     },
     {
         "title": "CV",
@@ -10,15 +16,15 @@
         "href": "/cv"
     },
     {
-        "title": "Projects",
-        "icon": "build",
-        "href": "/projects",
-        "sub": true
-    },
-    {
-        "title": "Blog",
+        "title": "Medium Blog",
         "icon": "notes",
         "href": "https://medium.com/@zarkopafilis",
         "target": "_blank"
+    },
+    {
+        "title": "Made With",
+        "icon": "build",
+        "href": "/tooling",
+        "sub": true
     }
 ]

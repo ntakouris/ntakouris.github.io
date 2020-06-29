@@ -12,6 +12,8 @@
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "assets-loader": "^0.5.2",
     "gridsome": "^0.7.0",
+    "pts": "^0.9.4",
+    "typed.js": "^2.0.11",
     "vuetify": "^2.0.18"
   },
   "devDependencies": {

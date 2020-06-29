@@ -21,10 +21,21 @@ export default function (Vue, { appOptions, router, head, isClient }) {
 
   head.script.push({ src: '/hotjar.js' })
   
-  const opts = { }
+  const opts = {
+    theme: {
+      dark: true,
+      themes: {
+        dark: {
+          accent: '#f03'
+        },
+      }
+    },
+  }
+
+  appOptions.vuetify = new Vuetify(opts)
+
   Vue.use(Vuetify)
   
-  appOptions.vuetify = new Vuetify(opts)
 
   Vue.component('Layout', DefaultLayout)
 }
