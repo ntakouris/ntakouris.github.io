@@ -43,9 +43,9 @@
         <v-spacer />
 
         <div class="toolbar-icons">
-        <v-btn icon class="mx-1" v-for="entry in socialEntries" :key="entry.href" :href="entry.href" 
+        <v-btn icon class="mx-1 a-fix" v-for="entry in socialEntries" :key="entry.href" :href="entry.href" 
           target="_blank">
-          <v-icon> {{ entry.icon }} </v-icon>
+          <v-icon class="icon-fix"> {{ entry.icon }} </v-icon>
         </v-btn>
         </div>
         <a href="/" style="display: inline-block" class="mt-2 ml-2">
@@ -110,6 +110,15 @@ a.v-btn {
 a.v-btn:hover {
   color: #112233;
   background-color: white;
+}
+
+.icon-fix {
+  font-weight: normal !important;
+  background-color: transparent !important;
+}
+
+.a-fix:hover, .icon-fix:hover {
+  background-color: transparent !important;
 }
 
 .v-toolbar__content {

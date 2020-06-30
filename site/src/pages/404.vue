@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout navbarTitle="Error 404">
     <div style="text-align: center;">
       <br /><br />
       <h1>Page not found</h1><br /><br />

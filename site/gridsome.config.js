@@ -1,6 +1,6 @@
 module.exports = {
   siteName: 'Theodoros Ntakouris',
-  siteUrl: 'https://zarkopafilis.github.io',
+  siteUrl: 'https://ntakour.is',
   titleTemplate: '%s | Theodoros Ntakouris',
   plugins: [
     {
