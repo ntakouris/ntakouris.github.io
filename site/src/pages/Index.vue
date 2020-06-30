@@ -31,18 +31,18 @@
       style="padding-top:80vh;  width: 100vw; display: flex; justify-content: center;"
       class="superimposed"
     >
-    <g-link id="bottom-button" to="/about">
+    <a id="bottom-button" href="/about">
       <g-image src="~/assets/prof_sq.png" style="height: 50px; width: 50px; border-radius: 50%; border: 2px white solid;" alt="Me" />
 
         <p style="padding-top: 13px; font-size: 1em; padding-left: 12px; padding-top: 16px;">Theodoros Ntakouris</p>
-    </g-link>
+    </a>
     </div>
   </div>
 </template>
 
 <script>
 import Typed from 'typed.js'
-import {Pt, Group, CanvasSpace, Geom, Curve, Form, VisualForm, Particle, World, Create, Num} from 'pts'
+import {Pt, Group, CanvasSpace, Geom, Curve, Form, VisualForm} from 'pts'
 
 export default {
   metaInfo: {

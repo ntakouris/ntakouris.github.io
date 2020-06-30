@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout navbarTitle="Projects">
     <v-container grid-list-md text-xs-center>
     <v-layout row wrap>
 

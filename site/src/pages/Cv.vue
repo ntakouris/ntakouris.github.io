@@ -1,8 +1,7 @@
 <template>
-  <Layout>
+  <Layout navbarTitle="Theodoros Ntakouris CV">
     <div class="cv-head">
-      <p>Theodoros Ntakouris</p> 
-      &nbsp;<a href="mailto:zarkopafilis@gmail.com" target="_blank">zarkopafilis@gmail.com</a> 
+      <a href="mailto:zarkopafilis@gmail.com" target="_blank">zarkopafilis@gmail.com</a> 
       &nbsp;<a href="https://github.com/zarkopafilis" target="_blank">Github Account</a>
     </div>
 

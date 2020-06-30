@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout navbarTitle="Made With">
     <h2>Libraries and Frameworks</h2>
     <ul>
       <li>

@@ -38,7 +38,7 @@
         <v-app-bar-nav-icon @click.stop="drawer = !drawer">
           <v-icon>menu</v-icon>
         </v-app-bar-nav-icon>
-        <v-toolbar-title><a href="/" style="text-decoration: none; color: inherit;">Theodoros Ntakouris</a></v-toolbar-title>
+        <v-toolbar-title><a href="/" style="text-decoration: none; color: inherit;">{{this.title}}</a></v-toolbar-title>
 
         <v-spacer />
 
@@ -48,6 +48,9 @@
           <v-icon> {{ entry.icon }} </v-icon>
         </v-btn>
         </div>
+        <a href="/" style="display: inline-block" class="mt-2 ml-2">
+        <g-image src="~/assets/prof_sq.png" style="height: 28px; width: 28px; border-radius: 50%;" alt="Me" />
+        </a>
       </v-app-bar>
 
       <v-content>
@@ -61,7 +64,7 @@
       </v-content>
 
       <v-footer app inset>
-        <span class="footer">Copyright &copy; Theodoros Ntakouris</span>
+        <span class="footer">@zarkopafilis</span>
       </v-footer>
     </v-app>
 </template>
@@ -71,9 +74,9 @@ import menuItems from "~/data/menu.json"
 import socialEntries from "~/data/social.json"
 
 export default {
+  props: ['navbarTitle'],
   name: "Default",
   metaInfo: {
-    description: "Curiosity - Creativity - Contribution. Software and Machine Learning Engineering.",
     meta: [
       { property: "og:title", content: "Theodoros Ntakouris" },
       { property: "og:type", content: "website" }
@@ -81,6 +84,7 @@ export default {
   },
   data() {
     return {
+      title: this.navbarTitle ? this.navbarTitle : '',
       menuItems,
       socialEntries,
       drawer: null
