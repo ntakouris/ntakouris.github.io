@@ -94,6 +94,14 @@ export default {
 </script>
 
 <style>
+.v-expansion-panel {
+  background-color: #0d1a26 !important;
+}
+
+.v-expansion-panel-content {
+  background-color: #112233;
+}
+
 a.v-btn {
   border-radius: 0;
   font-weight: bold;
