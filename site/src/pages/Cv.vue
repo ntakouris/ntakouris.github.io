@@ -1,6 +1,6 @@
 <template>
   <Layout navbarTitle="Theodoros Ntakouris CV">
-    <div class="cv-head">
+    <div class="cv-head mb-1">
       <a href="mailto:zarkopafilis@gmail.com" target="_blank">zarkopafilis@gmail.com</a> 
       &nbsp;<a href="https://github.com/zarkopafilis" target="_blank">Github Account</a>
     </div>
@@ -8,24 +8,23 @@
     <h2>Summary</h2>
     <p>
       Curiosity and results-driven engineer with a strong focus on machine and deep learning. Keeps up to date with latest research advancements in order to apply them to real world problems. Open source contributor and passionate about good software, statistics and data engineering practices.
-      Occasionally stuck in local maxima.
+      <br /><small>Occasionally stuck in local maxima.</small>
     </p>
 
-    <h2>Education</h2>
+    <h2>Formal Education</h2>
     <ul>
       <li>
-        In pursuit of
-        <b>Integrated Master of Computer Engineering & Informatics</b> at
+        <u>Integrated Master of Computer Engineering and Informatics</u>,
         <i>
           <a href="https://www.ceid.upatras.gr/" target="_blank">University of Patras</a>
         </i>
-        .&nbsp; Expected Graduation 2021 (5 year curriculum)
+         - Expected Graduation 2021 (5 year curriculum in total)
       </li>
     </ul>
 
     <br />
     <h2 class="mb-1">Skills</h2>
-    <v-simple-table>
+    <v-simple-table class="mb-1">
       <template v-slot:default>
         <thead>
           <tr>
@@ -35,20 +34,28 @@
         </thead>
         <tbody>
           <tr>
-            <td>Programming Languages</td>
+            <td>Languages</td>
             <td>Python - C# - JavaScript - Java (up to 8)</td>
           </tr>
           <tr>
             <td>Databases</td>
-            <td>MySQL - MongoDB</td>
+            <td>MariaDB - MongoDB - SQLite</td>
           </tr>
           <tr>
-            <td>Experience with</td>
-            <td>Keras - Tensorflow - PyTorch - Pandas - Scikit-Learn - Numpy - ASP.Net Core - Vue</td>
+            <td>Deep Learning</td>
+            <td>Tensorflow - Keras - Tensorflow Extended - Apache Beam - TFLite - Pandas - Scikit-Learn - Numpy - Tensorboard</td>
           </tr>
           <tr>
-            <td>Other</td>
-            <td>Async Programming - REST APIs - Testing - Git - Gradle - Design Patterns - ORM - CQRS - Continuous Integration - Docker</td>
+            <td>Web Development</td>
+            <td>ASP.Net Core - Vue.js - Vuetify - Webpack</td>
+          </tr>
+          <tr>
+            <td>Software Engineering</td>
+            <td>REST APIs - Async Programming - Testing - Benchmarking - Design Patterns - Dependency Injection - ORM - CQRS - Rx</td>
+          </tr>
+          <tr>
+            <td>DevOps and Other</td>
+            <td>Docker - Jenkins - CircleCI - Git - JSON Web Tokens</td>
           </tr>
         </tbody>
       </template>
@@ -59,74 +66,40 @@
       style="display: inline; margin-left: 12px;"
       href="https://medium.com/@zarkopafilis"
       target="_blank"
-    >Technical Articles</a>
-    <br />
-    <br />
+    >Medium Blog</a>
+    <br /><br />
 
     <h2>Machine Learning Projects (2019 - ongoing)</h2>
 
-    <h4>Bitcoin Market Data Prediction (Keras)</h4>
+    <h4>Bitcoin Market Data Predictions (Keras, Python)</h4>
     <ul>
       <li>Created a configuration-file based model training, evaluation and hyperparameter exploration system along with result visualization</li>
       <li>Used bitcoin exchange data to predict next-day results. On-Chain Analytics and possibly order book data will be also added in the future </li>
       <li>Enhanced model performance by feature engineering technical indicators</li>
-      <li>A deployment and backtesting trading bot is under construction</li>
+      <li>Implemented and evaluated backtesting strategies</li>
+      <li>Made a custom windowed pipeline system to perform and visualize on-line predictions</li>
+      <li>Created a vendor-independent api for order management and strategy execution</li>
+      <li>Streamed data from Binance, Coinbase Pro</li>
     </ul>
     <br />
 
-    <h4>Shop & Item Sales Forecasting (Keras, LSTM)</h4>
+    <h4><a href="https://github.com/Zarkopafilis/implybot" target="blank">Generative Chatbot</a> trained on discord server chat logs (Keras, Python)</h4>
     <ul>
-      <li>Processed (shop, item, quantity, date) sale tuples and train a neural network to predict future monthly sales for each shop and item pair</li>
+      <li>Trained a generative seq2seq LSTM model with teacher forcing to generate text from ~15 MB discord chat logs</li>
+      <li>Leveraged fast-text word embeddings for transfer learning</li>
     </ul>
     <br />
 
-    <h4>Movie Recommendations through Collaborative Filtering (Keras, MLP, Genetic Algorithm)</h4>
+    <h4>Shop & Item Sales Forecasting (Keras, Python)</h4>
     <ul>
-      <li>Trained a neural network that produces rankings for each user</li>
-      <li>Took a genetic-algorithm approach exploring how different encodings and generation operations effect the results</li>
-      <li>Used Train-Validation Splits to select the best model parameters</li>
-    </ul>
-    <br />
-
-    <h4>Generative Chatbot text based on previous Discord Server chat logs (Pytorch)</h4>
-    <ul>
-      <li>Trained a generative LSTM model with teacher forcing to predict the next messages from exported chat logs</li>
-      <li>Leveraged fast-text word embeddings as a form of transfer learning</li>
-    </ul>
-    <br />
-
-    <h4>Deepfake Generation, GANs (Keras)</h4>
-    <ul>
-      <li>Used latest pretrained models such us First Order Motion Models for Image Animation to generate a few deepfakes</li>
-      <li>Used SinGAN to generate some art for a university festival </li>
-    </ul>
-    <br />
-
-    <h4>Spam Comment Classification (Keras, Tf-Idf)</h4>
-    <ul>
-      <li>Tokenized, Created Vocabulary, Removed stopwords and produced the tf-idf matrix for the comment text corpus</li>
-      <li>Used a deep dense neural network to perform binary classification</li>
-    </ul>
-    <br />
-
-    <h4>Wine Quality Prediction from Chemical Indicators (Scikit-Learn, SVM)</h4>
-    <ul>
-      <li>Performed a grid search to fine-tune the SVM classification task</li>
-      <li>Compared data imputation techniques (Mean, Nearest-Neighbour, Drop-Column)</li>
-    </ul>
-    <br />
-
-    <h4>Model Pruning and Optimization through Intel OpenVINO (Tensorflow)</h4>
-    <ul>
-      <li>Intel Edge AI Udacity Scholarship Course</li>
-      <li>Performed Model Pruning and Optimizing through OpenVINO (exclusively for intel-based edge ai products)</li>
+      <li>Processed (shop, item, quantity, date) sale tuples and train a neural network to predict future monthly sales for each shop and item pair, in order to obtain next-day or next-moth item sales</li>
     </ul>
 
     <br />
     <h2>Employment</h2>
     <h4>
       Android Developer,
-      <a href="https://www.eventora.com/" target="_blank">Eventora</a> (Summer 2016 - 2018, Java)
+      <a href="https://www.eventora.com/" target="_blank">Eventora</a> (Summer 2016 - 2018 | Java)
     </h4>
     <ul>
       <li>
@@ -144,11 +117,11 @@
     </ul>
     <br />
 
-    <h4>Game & Game Server Development (2011 - 2016, Java, C++) - Freelancing</h4>
+    <h4>Game & Game Server Development (2011 - 2016 | Java, C++) - Freelancing</h4>
     <ul>
-      <li>Published a game on Steam, made in Unreal Engine 4 with C++ (4000+ Sales)</li>
+      <li>Published a <a href="https://store.steampowered.com/app/493650/Deep_Space_Dash/" target="_blank">game on Steam</a>, made in Unreal Engine 4 with C++ (4000+ Sales)</li>
       <li>Unreal Engine 4 contribution by implementing the Android local notification system </li>
-      <li>Created a series of game server modifications for a grid of Minecraft servers(400 concurrent players at peak, Java)</li>
+      <li>Created a series of game <a href="https://github.com/Zarkopafilis/RFS"  target="_blank">server modifications</a> for a grid of Minecraft servers (400 concurrent players at peak, Java)</li>
     </ul>
     <br />
 
@@ -157,7 +130,7 @@
       <a
         href="https://github.com/Zarkopafilis/awesome-dronecraft"
         target="_blank"
-      >A Complete Autonomous Drones Study Plan (2019-2020)</a>
+      >A Complete Autonomous Drones Study Plan</a> (2019 - 2020)
     </h4>
     <p>
       I originally created this as a short to-do list of study topics for becoming a software engineer, 
@@ -169,7 +142,7 @@
     </p>
     <br />
 
-    <h4>UAVCAN / libuavcan, Yukon (150 stars, 1800 commits, Embedded C++, Python, JavaScript)</h4>
+    <h4><a href="https://github.com/UAVCAN"  target="_blank">UAVCAN</a> / <a href="https://github.com/UAVCAN/libuavcan"  target="_blank">libuavcan</a> - <a href="https://github.com/UAVCAN/Yukon"  target="_blank">Yukon</a> (2019 | Embedded C++, Python, JavaScript)</h4>
     <ul>
       <li>Optimised the transmission queue by simplifying frame transfer logic and most importanly, swap out a bottlenecking linked list queue with a custom AVL-Tree implementation, which supports equal keys, by using a custom block allocator to avoid fragmentation, in order to improve worse case performance by a large margin</li>
       <li>Collaborated with the hardware and python api team to design the new web-based bus inspection tool</li>
@@ -177,17 +150,10 @@
     </ul>
     <br />
 
-    <h4>Elfocrash/Cosmonaut (70 stars, 250 commits) (C#)</h4>
-    <ul>
-      <li>Created the .Net Core 2 Sample REST API app that supports async CRUD operations with paging using the Cosmonaut wrapper for the CosmosDB SDK
-      </li>
-    </ul>
-    <br />
-
-    <h4>src-d/go-mysql-server (130 stars, 900 commits) (Go)</h4>
+    <h4><a href="https://github.com/src-d/go-mysql-server" target="_blank">src-d/go-mysql-server</a> (2019 | Go)</h4>
     <ul>
       <li>Implement some SQL functions to comply with the MySQL standard (unit tests included)</li>
-      <li>Make some parts of the SQL parser more robust</li>
+      <li>Make some parts of the query parser more robust</li>
     </ul>
 
     <br />
@@ -207,7 +173,7 @@
     <ul>
       <li>
         Express love for Software Engineering by contributing to Open Source projects
-        (Hacktoberfest!) and Publishing of Software Engineering Articles on <a href="https://medium.com/@zarkopafilis">medium.com</a> (Averaging 6K article views per month)
+        (Hacktoberfest!) and Publishing of Software Engineering Articles on <a href="https://medium.com/@zarkopafilis" target="_blank">medium.com</a> (Averaging ~6K article views per month)
       </li>
       <li>Voxxed Days Athens 2018 Volunteer (3 consecutive years)</li>
       <li>Photography, Audiovisual Arts through applied computer engineering</li>

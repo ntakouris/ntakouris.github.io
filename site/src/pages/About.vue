@@ -4,7 +4,7 @@
     <br />
 
     <ul>
-      <li>Theodoros is born in 1998 and raised in Athens, Greece</li>
+      <li>Theodoros was born and raised in Athens, Greece</li>
       <li>He came across Java randomly on the internet while studying at junior high school</li>
       <li>And made numerous minecraft mods during that time</li>
       <li>After starting his studies at the Computer Engineering and Informatics Department - University of Patras</li>
