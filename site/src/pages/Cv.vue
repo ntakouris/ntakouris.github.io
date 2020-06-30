@@ -43,7 +43,7 @@
           </tr>
           <tr>
             <td>Deep Learning</td>
-            <td>Tensorflow - Keras - Tensorflow Extended - Apache Beam - TFLite - Pandas - Scikit-Learn - Numpy - Tensorboard</td>
+            <td>Tensorflow - Keras - Tensorflow Extended - Apache Beam - TFLite - Pandas - Scikit-Learn - Numpy - Tensorboard - Jupyter Notebooks</td>
           </tr>
           <tr>
             <td>Web Development</td>

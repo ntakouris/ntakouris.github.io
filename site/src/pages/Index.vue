@@ -129,7 +129,6 @@ export default {
 
 #header-text{
   pointer-events: all;
-  border-radius: 10px;
   padding: 8px;
   padding-top: 9px;
 }
@@ -160,13 +159,13 @@ export default {
   justify-content: center;
   padding: 8px;
   padding-top: 9px;
-  border-radius: 8px;
   text-decoration: none;
 }
 
 #bottom-button:hover {
   background-color: #0d1a26;
   border: 1px solid white;
+  color:white;
   padding-top: 8px;
 }
 

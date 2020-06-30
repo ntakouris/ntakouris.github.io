@@ -94,6 +94,15 @@ export default {
 </script>
 
 <style>
+a.v-btn {
+  border-radius: 0;
+  font-weight: bold;
+}
+
+a.v-btn:hover {
+  color: #112233;
+  background-color: white;
+}
 
 .v-toolbar__content {
   background-color: #0d1a26;
