@@ -34,7 +34,7 @@
     <br />
 
 
-    <p>Website code is Open Source at <a href="https://github.com/Zarkopafilis/zarkopafilis.github.io/tree/dev">Github</a></p>
+    <p>Website code is Open Source at <a href="https://github.com/ntakouris/zarkopafilis.github.io/tree/dev">Github</a></p>
   </Layout>
 </template>
 

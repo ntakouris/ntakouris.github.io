@@ -9,7 +9,7 @@
         "description": "An LSTM seq2seq model trained on discord chat logs.",
         "type": "Deep Learning",
         "urls": {
-            "view": "https://github.com/zarkopafilis/implybot"
+            "view": "https://github.com/ntakouris/implybot"
         }
     },
     {

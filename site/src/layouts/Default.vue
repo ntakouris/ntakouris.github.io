@@ -63,9 +63,9 @@
         </v-container>
       </v-content>
 
-      <v-footer app inset>
-        <span class="footer">@zarkopafilis</span>
-      </v-footer>
+      <!-- <v-footer app inset>
+        <span class="footer">@footer</span>
+      </v-footer> -->
     </v-app>
 </template>
 

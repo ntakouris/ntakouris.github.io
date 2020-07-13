@@ -1,8 +1,8 @@
 <template>
   <Layout navbarTitle="Theodoros Ntakouris CV">
     <div class="cv-head mb-1">
-      <a href="mailto:zarkopafilis@gmail.com" target="_blank">zarkopafilis@gmail.com</a> 
-      &nbsp;<a href="https://github.com/zarkopafilis" target="_blank">Github Account</a>
+      <a href="mailto:hi@ntakour.is" target="_blank">hi@ntakour.is</a> 
+      &nbsp;<a href="https://github.com/ntakouris" target="_blank">Github Account</a>
     </div>
 
     <h2>Summary</h2>
@@ -61,7 +61,7 @@
       </template>
     </v-simple-table>
 
-    <a href="https://github.com/zarkopafilis" target="_blank">Github Account</a>
+    <a href="https://github.com/ntakouris" target="_blank">Github Account</a>
     <a
       style="display: inline; margin-left: 12px;"
       href="https://medium.com/@zarkopafilis"
@@ -83,7 +83,7 @@
     </ul>
     <br />
 
-    <h4><a href="https://github.com/Zarkopafilis/implybot" target="blank">Generative Chatbot</a> trained on discord server chat logs (Keras, Python)</h4>
+    <h4><a href="https://github.com/ntakouris/implybot" target="blank">Generative Chatbot</a> trained on discord server chat logs (Keras, Python)</h4>
     <ul>
       <li>Trained a generative seq2seq LSTM model with teacher forcing to generate text from ~15 MB discord chat logs</li>
       <li>Leveraged fast-text word embeddings for transfer learning</li>
@@ -121,14 +121,14 @@
     <ul>
       <li>Published a <a href="https://store.steampowered.com/app/493650/Deep_Space_Dash/" target="_blank">game on Steam</a>, made in Unreal Engine 4 with C++ (4000+ Sales)</li>
       <li>Unreal Engine 4 contribution by implementing the Android local notification system </li>
-      <li>Created a series of game <a href="https://github.com/Zarkopafilis/RFS"  target="_blank">server modifications</a> for a grid of Minecraft servers (400 concurrent players at peak, Java)</li>
+      <li>Created a series of game <a href="https://github.com/ntakouris/RFS"  target="_blank">server modifications</a> for a grid of Minecraft servers (400 concurrent players at peak, Java)</li>
     </ul>
     <br />
 
     <h2>Open Source Contributions</h2>
     <h4>
       <a
-        href="https://github.com/Zarkopafilis/awesome-dronecraft"
+        href="https://github.com/ntakouris/awesome-dronecraft"
         target="_blank"
       >A Complete Autonomous Drones Study Plan</a> (2019 - 2020)
     </h4>
