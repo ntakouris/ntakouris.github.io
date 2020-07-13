@@ -51,7 +51,13 @@
 
 export default {
   metaInfo: {
-    title: 'About'
+    title: 'About',
+    meta: [
+      {
+        name: "description",
+        content: "About Me"
+      }
+    ]
   }
 }
 </script>

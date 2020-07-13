@@ -11,7 +11,13 @@
 
 <script>
 export default {
-  name: "404"
+  name: "404",
+    meta: [
+      {
+        name: "description",
+        content: "Bad url or under construction"
+      }
+    ]
 };
 </script>
 

@@ -33,7 +33,7 @@
         "description": "A study plan to fully understand how autonomous drones work.",
         "type": "Technical Article",
         "urls": {
-            "view": "https://github.com/Zarkopafilis/awesome-dronecraft"
+            "view": "https://github.com/ntakouris/awesome-dronecraft"
         }
     },
     {
@@ -57,7 +57,7 @@
         "description": "Unreal Engine 4 contributions, a published game on Steam, Minecraft server mods.",
         "urls": {
             "steam": "https://store.steampowered.com/app/493650/Deep_Space_Dash/",
-            "mods": "https://github.com/zarkopafilis/RFS"
+            "mods": "https://github.com/ntakouris/RFS"
         },
         "type": "3 Projects"
     }

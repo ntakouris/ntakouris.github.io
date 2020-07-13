@@ -41,7 +41,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Tooling"
+    title: "Tooling",
+    meta: [
+      {
+        name: "description",
+        content: "Tools used for the creation of this website"
+      }
+    ]
   }
 };
 </script>

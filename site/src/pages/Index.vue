@@ -47,8 +47,11 @@ import {Pt, Group, CanvasSpace, Geom, Curve, Form, VisualForm} from 'pts'
 export default {
   metaInfo: {
     title: "Personal Website",
-    description: "Curiosity - Creativity - Contribution. Software and Machine Learning Engineering.",
     meta: [
+      {
+        name: 'description',
+        content: "Curiosity - Creativity - Contribution. Software and Machine Learning Engineering."
+      },
       { property: "og:title", content: "Theodoros Ntakouris" },
       { property: "og:type", content: "website" }
     ]

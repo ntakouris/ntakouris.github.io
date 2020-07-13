@@ -32,7 +32,12 @@ export default {
   name: "Projects",
   metaInfo: {
     title: 'Projects',
-    description: ''
+    meta: [
+      {
+        name: "description",
+        content: "Project Index Page"
+      }
+    ]
   },
   data() {
     return {
