@@ -1,37 +1,56 @@
 [
     {
-        "title": "Bitcoin Trading Bot",
-        "description": "Time series forecasting, trading strategy execution and backtesting for cryptocurrency data.",
-        "type": "Deep Learning"
+        "title": "Cryptocurrency Trading Bot",
+        "description": "Time series forecasting, trading strategy execution, backtesting, paper and live trading.",
+        "type": "Deep Learning System",
+        "urls": {
+            "view": "/projects/bitbot"
+        }
+    },
+    {
+        "title": "Fluent TFX",
+        "description": "A Fluent and Compact Tensorflow Extended API Layer with sensible defaults.",
+        "type": "E2E ML Pipelines Library",
+        "urls": {
+            "github": "https://github.com/ntakouris/fluent-tfx"
+        }
+    },
+    {
+        "title": "TF Technical Indicators",
+        "description": "Fincancial Technical Indicators for market analysis as Tensorflow Graph Code.",
+        "type": "Deep Learning Library",
+        "urls": {
+            "github": "https://github.com/ntakouris/tf-technical-indicators"
+        }
     },
     {
         "title": "Generative Text Chatbot",
         "description": "An LSTM seq2seq model trained on discord chat logs.",
-        "type": "Deep Learning",
+        "type": "Deep Learning Experiment",
         "urls": {
-            "view": "https://github.com/ntakouris/implybot"
+            "github": "https://github.com/ntakouris/implybot"
         }
     },
     {
         "title": "go-mysql-server",
         "description": "Contribution of several SQL commands and tests, enhanhed the query parser a little.",
-        "type": "project",
+        "type": "Open Source Conntributions",
         "urls": {
-            "view": "https://github.com/src-d/go-mysql-server"
+            "github": "https://github.com/src-d/go-mysql-server"
         }
     },
     {
         "title": "uavcan",
         "description": "Hacktoberfest contributions on embedded C++ code. Designed and architected a big portion of the next-gen visualization tool with Vue.js.",
-        "type": "project",
+        "type": "Open Source Conntributions",
         "urls": {
-            "view": "https://github.com/UAVCAN"
+            "github": "https://github.com/UAVCAN"
         }
     },
     {
         "title": "Awesome Dronecraft",
         "description": "A study plan to fully understand how autonomous drones work.",
-        "type": "Technical Article",
+        "type": "Study Guide",
         "urls": {
             "view": "https://github.com/ntakouris/awesome-dronecraft"
         }
@@ -39,9 +58,9 @@
     {
         "title": "eventora-app",
         "description": "Summer Internship work on event ticket android apps.",
-        "type": "app",
+        "type": "internship app",
         "urls": {
-            "view": "https://play.google.com/store/apps/details?id=com.eventora.mobile.android"
+            "play store": "https://play.google.com/store/apps/details?id=com.eventora.mobile.android"
         }
     },
     {
@@ -49,7 +68,7 @@
         "description": "A simple Vue.js with gridsome website exposing bad electoral processes of the Greek Basketball Federation.",
         "type": "website",
         "urls": {
-            "view": "https://basket12.gr/"
+            "website": "https://basket12.gr/"
         }
     },
     {
