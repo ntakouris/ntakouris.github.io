@@ -41,23 +41,27 @@
           </tr>
           <tr>
             <td>Databases</td>
-            <td>MariaDB - MongoDB - SQLite</td>
+            <td>MySQL - MongoDB - SQLite</td>
           </tr>
           <tr>
             <td>Deep Learning</td>
-            <td>Tensorflow - Keras - Tensorflow Extended - Apache Beam - TFLite - Pandas - Scikit-Learn - Numpy - Tensorboard - Jupyter Notebooks</td>
+            <td>Tensorflow - Keras - Pandas - Scikit-Learn - Numpy - Jupyter Notebooks</td>
+          </tr>
+          <tr>
+            <td>ML Engineering</td>
+            <td>Tensorflow Extended (TFX) - Tensorflow Serving - Apache Beam - Kubeflow Pipelines - ML Metadata - Tensorboard - End 2 End Tests</td>
+          </tr>
+          <tr>
+            <td>Software Engineering</td>
+            <td>REST APIs - Async Programming - Testing - Design Patterns - Benchmarking - Dependency Injection - ORM - CQRS - Reactive Extensions (Rx)</td>
+          </tr>
+          <tr>
+            <td>DevOps and Other</td>
+            <td>Git - Docker - Github Actions (CI)</td>
           </tr>
           <tr>
             <td>Web Development</td>
             <td>ASP.Net Core - Vue.js - Vuetify - Webpack</td>
-          </tr>
-          <tr>
-            <td>Software Engineering</td>
-            <td>REST APIs - Async Programming - Testing - Benchmarking - Design Patterns - Dependency Injection - ORM - CQRS - Rx</td>
-          </tr>
-          <tr>
-            <td>DevOps and Other</td>
-            <td>Docker - Jenkins - CircleCI - Git - JSON Web Tokens</td>
           </tr>
         </tbody>
       </template>
@@ -74,20 +78,37 @@
 
     <h2>Machine Learning Projects (2019 - ongoing)</h2>
 
-    <h4>Bitcoin Market Data Predictions (Keras, Python)</h4>
+    <h4><a href="/projects/bitbot" target="_blank">Cryptocurrency Trading Bot</a> (Q4 2019 ~ Ongoing | Tensorflow Extended, Python)</h4>
+    <small>(Private source code, sorry.)</small>
     <ul>
-      <li>Created a configuration-file based model training, evaluation and hyperparameter exploration system along with result visualization</li>
-      <li>Used bitcoin exchange data to predict next-day results. On-Chain Analytics and possibly order book data will be also added in the future</li>
-      <li>Enhanced model performance by feature engineering technical indicators</li>
-      <li>Implemented and evaluated backtesting strategies</li>
-      <li>Made a custom windowed pipeline system to perform and visualize on-line predictions</li>
-      <li>Created a vendor-independent api for order management and strategy execution</li>
-      <li>Streamed data from Binance, Coinbase Pro</li>
+      <li>Created end to end, cloud-native machine learning model pipelines, powered by Tensorflow Extended</li>
+      <li>Deployed said trained models through Tensorflow Serving</li>
+      <li>Provided strongly-typed client APIs for the invocation of this prediction service</li>
+      <li>Construced vendor-agnostic feed models, order placement and tracking services</li>
+      <li>Created backtesting.py strategies that use the deep learning models to make decisions </li>
+      <li>Deployed the complete trading solution as 1) a trading signal dashboard, 2) paper-money trade testing</li>
+    </ul>
+    <br />
+
+    <h4><a href="https://github.com/ntakouris/fluent-tfx" target="_blank">Fluent TFX</a> (Q2 2020 | Tensorflow Extended, Python)</h4>
+    <small>This is a package that I published on PyPi</small>
+    <ul>
+      <li>Fluent TFX provides a better API for TFX pipeline creation. 
+        If you are already using tensorflow or keras for your models, 
+        this is an easy to use api that will have your model up and running in an e2e scenario quickly, 
+        without the need to waste a significant amount of time of learning the internals of tfx to get something working.</li>
+    </ul>
+    <br />
+
+    <h4><a href="https://github.com/ntakouris/tf-technical-indicators" target="_blank">Tensorflow Technical Indicators</a> (Q2 2020 | Tensorflow, Python)</h4>
+    <small>This is a package that I published on PyPi</small>
+    <ul>
+      <li>Financial Market Technical Indicators, implemented as Tensorflow Graph Functions (for speed and compatibility)</li>
     </ul>
     <br />
 
     <h4>
-      <a href="https://github.com/ntakouris/implybot" target="blank">Generative Chatbot</a> trained on discord server chat logs (Keras, Python)
+      <a href="https://github.com/ntakouris/implybot" target="_blank">Generative Chatbot</a> trained on discord server chat logs (Q1 2020 | Keras, Python)
     </h4>
     <ul>
       <li>Trained a generative seq2seq LSTM model with teacher forcing to generate text from ~15 MB discord chat logs</li>
