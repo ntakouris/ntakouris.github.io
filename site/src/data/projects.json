@@ -9,7 +9,7 @@
     },
     {
         "title": "Fluent TFX",
-        "description": "A Fluent and Compact Tensorflow Extended API Layer with sensible defaults.",
+        "description": "A Fluent and Compact Tensorflow Extended API Layer with sensible defaults, available as a PyPi package.",
         "type": "E2E ML Pipelines Library",
         "urls": {
             "github": "https://github.com/ntakouris/fluent-tfx"
@@ -17,7 +17,7 @@
     },
     {
         "title": "TF Technical Indicators",
-        "description": "Fincancial Technical Indicators for market analysis as Tensorflow Graph Code.",
+        "description": "Fincancial Technical Indicators for market analysis as Tensorflow Graph Code, available as a PyPi package.",
         "type": "Deep Learning Library",
         "urls": {
             "github": "https://github.com/ntakouris/tf-technical-indicators"
