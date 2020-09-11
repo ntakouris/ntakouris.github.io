@@ -18,7 +18,7 @@
         <a href="https://www.tensorflow.org/tfx">Tensorflow Extended (TFX)</a> 
         with the <a href="https://github.com/ntakouris/fluent-tfx">Fluent TFX</a> API layer is used extensively
         to orchestrate such pipelines that can either be executed locally, or on a cloud-based environment such as
-         <a href="https://cloud.google.com/dataflow">GCP Dataflow</a>, <a href="https://www.kubeflow.org/">Kubeflow</a>, <a href="https://azure.microsoft.com/en-us/free/databricks/">Azure Databricks</a> and others. 
+         <a href="https://cloud.google.com/dataflow">GCP Dataflow</a>, <a href="https://www.kubeflow.org/">Kubeflow Pipelines</a>, <a href="https://azure.microsoft.com/en-us/free/databricks/">Azure Databricks</a> and others. 
     </p>
     <p>
         For the pipelines and the online realtime prediction services, the runtime is abstracted away either with
@@ -49,6 +49,14 @@
     <br />
     <p>
         Our backtrading system of choice is <a href="https://github.com/kernc/backtesting.py">Backtesting.py</a>, but realtime deployment is handled a bit differently.
+    </p>
+
+    <br />
+    <h2>Deployment and DevOps</h2>
+    <p>
+      Everything is packaged as self-contained docker containers. Those containers are deployed in a 
+      on-premises (small) kubernetes cluster with kubeflow pipelines and knative installed. Jobs can be
+      scheduled on their own. Results are published to the ML Metadata server.
     </p>
   </Layout>
 </template>

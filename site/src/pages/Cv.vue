@@ -8,9 +8,10 @@
 
     <h2>Summary</h2>
     <p>
-      Curiosity and results-driven engineer with a strong focus on machine and deep learning. Keeps up to date with latest research advancements in order to apply them to real world problems. Open source contributor and passionate about good software, statistics and data engineering practices.
+      Curiosity and results-driven engineer with a strong focus on machine and deep learning. 
+      Analytical thinker and methodical, regarding good software, statistics and data engineering practices.
+      Active Open source contributor.
       <br />
-      <small>Occasionally stuck in local maxima.</small>
     </p>
 
     <h2>Formal Education</h2>
@@ -57,11 +58,11 @@
           </tr>
           <tr>
             <td>DevOps and Other</td>
-            <td>Git - Docker - Github Actions (CI)</td>
+            <td>Git - Docker - Kubernetes - Github Actions (CI)</td>
           </tr>
           <tr>
             <td>Web Development</td>
-            <td>ASP.Net Core - Vue.js - Vuetify - Webpack</td>
+            <td>FastAPI - ASP.Net Core - Vue.js - Vuetify - Webpack</td>
           </tr>
         </tbody>
       </template>
@@ -76,17 +77,18 @@
     <br />
     <br />
 
-    <h2>Machine Learning Projects (2019 - ongoing)</h2>
+    <h2>Machine Learning Projects (Q2 2019 - ongoing)</h2>
 
     <h4><a href="/projects/bitbot" target="_blank">Cryptocurrency Trading Bot</a> (Q4 2019 ~ Ongoing | Tensorflow Extended, Python)</h4>
     <small>(Private source code, sorry.)</small>
     <ul>
-      <li>Created end to end, cloud-native machine learning model pipelines, powered by Tensorflow Extended</li>
-      <li>Deployed said trained models through Tensorflow Serving</li>
-      <li>Provided strongly-typed client APIs for the invocation of this prediction service</li>
+      <li>Architected end to end, cloud-native machine learning model pipelines, powered by Tensorflow Extended</li>
+      <li>Built and deployed system components for data scraping, data querying, deep learning model development and deployment</li>
+      <li>Developed a kubernetes cluster with kubeflow pipelines</li>
+      <li>Provided strongly-typed client APIs for the invocation of the model prediction service</li>
       <li>Construced vendor-agnostic feed models, order placement and tracking services</li>
       <li>Created backtesting.py strategies that use the deep learning models to make decisions </li>
-      <li>Deployed the complete trading solution as 1) a trading signal dashboard, 2) paper-money trade testing</li>
+      <li>Implemented live-streaming data prediction dashboards</li>
     </ul>
     <br />
 
@@ -108,11 +110,12 @@
     <br />
 
     <h4>
-      <a href="https://github.com/ntakouris/implybot" target="_blank">Generative Chatbot</a> trained on discord server chat logs (Q1 2020 | Keras, Python)
+      Generative Text RNN Experiments trained on discord server chat logs (Q1 2020 | Keras, Python)
     </h4>
     <ul>
-      <li>Trained a generative seq2seq LSTM model with teacher forcing to generate text from ~15 MB discord chat logs</li>
+      <li><a href="https://github.com/ntakouris/implybot" target="_blank">Trained a generative seq2seq LSTM</a> model with teacher forcing to generate text from ~15 MB discord chat logs</li>
       <li>Leveraged fast-text word embeddings for transfer learning</li>
+      <li><a href="https://colab.research.google.com/gist/ntakouris/f7cdfbcb614686d158f65b4bb124cd2c/elinika_gen.ipynb">Trained a character-level GRU RNN</a> to generate Greek song lyrics</li>
     </ul>
     <br />
 
