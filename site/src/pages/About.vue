@@ -40,6 +40,7 @@
     <div style="display: flex; align-items:center;">
     <v-btn outlined href="/projects">View Projects</v-btn> <br /><br />
     <v-btn outlined href="/cv" class="ml-12">View CV</v-btn> 
+    <v-btn outlined href="https://www.linkedin.com/in/theodoros-ntakouris/" class="ml-12">Visit Linked In</v-btn> 
     </div>
 
 

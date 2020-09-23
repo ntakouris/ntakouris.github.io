@@ -1,6 +1,6 @@
 [
     {
-        "title": "Cryptocurrency Trading Predictions and Bot",
+        "title": "Cryptocurrency Predictions",
         "description": "Time series forecasting, trading strategy execution, backtesting, paper and live trading.",
         "type": "Deep Learning System",
         "urls": {
@@ -16,6 +16,15 @@
         }
     },
     {
+        "title": "PoseNet Dino",
+        "description": "Physically play Chrome's offline dino game by physically jumping around in your room.",
+        "type": "Deep Learning Experiment",
+        "urls": {
+            "article": "https://medium.com/@zarkopafilis/playing-chromes-dino-game-by-physically-jumping-and-crouching-a3d319234727?source=friends_link&sk=92f5a9b3bc8735ccab84f7b4bf6e835b",
+            "github": "https://github.com/ntakouris/posenet-dino-game"
+        }
+    },
+    {
         "title": "TF Technical Indicators",
         "description": "Fincancial Technical Indicators for market analysis as Tensorflow Graph Code, available as a PyPi package.",
         "type": "Deep Learning Library",
@@ -26,7 +35,7 @@
     {
         "title": "Generative Text Chatbots",
         "description": "Word and character based RNN models.",
-        "type": "Deep Learning Experiments",
+        "type": "Deep Learning Experiment",
         "urls": {
             "github": "https://github.com/ntakouris/implybot",
             "colab": "https://colab.research.google.com/gist/ntakouris/f7cdfbcb614686d158f65b4bb124cd2c/elinika_gen.ipynb"

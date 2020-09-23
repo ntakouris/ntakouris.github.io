@@ -4,6 +4,8 @@
       <a href="mailto:hi@ntakour.is" target="_blank">hi@ntakour.is</a>
       &nbsp;
       <a href="https://github.com/ntakouris" target="_blank">Github Account</a>
+      &nbsp;
+      <a href="https://www.linkedin.com/in/theodoros-ntakouris/" target="_blank">Linked In</a>
     </div>
 
     <h2>Summary</h2>
