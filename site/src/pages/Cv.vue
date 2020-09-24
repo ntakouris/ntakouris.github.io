@@ -1,13 +1,10 @@
 <template>
   <Layout navbarTitle="Theodoros Ntakouris CV">
-    <div class="cv-head mb-1">
-      <a href="mailto:hi@ntakour.is" target="_blank">hi@ntakour.is</a>
-      &nbsp;
-      <a href="https://github.com/ntakouris" target="_blank">Github Account</a>
-      &nbsp;
-      <a href="https://www.linkedin.com/in/theodoros-ntakouris/" target="_blank">Linked In</a>
+    <div style="display: flex; align-items: center;">
+      <v-btn outlined href="mailto:hi@ntakour.is" target="_blank">hi@ntakour.is</v-btn><br /><br />
+      <v-btn outlined href="https://github.com/ntakouris" target="_blank" class="ml-6">Github Account</v-btn><br /><br />
     </div>
-
+    <br />
     <h2>Summary</h2>
     <p>
       Curiosity and results-driven engineer with a strong focus on machine and deep learning. 
