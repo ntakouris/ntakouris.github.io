@@ -1,6 +1,5 @@
 <template>
   <Layout navbarTitle="Projects">
-
     <v-layout row wrap>
 
     <v-card class="mx-auto mt-2 mb-0" max-width="344" outlined v-for="project in projects" :key="project.title">

@@ -9,21 +9,24 @@
       <li>And made numerous minecraft mods during that time</li>
       <li>After starting his studies at the Computer Engineering and Informatics Department - University of Patras</li>
       <li>He gradually transitioned from game development to web and android development and became interested and passionate about software engineering, best practises and robust, scalable systems</li>
-      <li>Halfway through his studies, he discovered what deep learning is all about, and has been practising it ever since</li>
+      <li>Halfway through his studies, he discovered what machine learning is all about, and has been practising it ever since</li>
       <br />
-      <li>He wants to be a Machine Learning Engineer after finishing his studies and the mandatory 1-year Greek military service</li>
     </ul>
     <br />
 
     <h1>Skillset</h1>
+    <br />
     <p>
       Over the years, a wide range of tools, programming languages and operating systems got
       employed in order to make an even more diverse set of projects. <br /><br />
       Eventually, the programming languages that are more frequently used converged to Python for most Data Science or
       Machine Learning workloads, scripts and lightweight tooling, C# for Web APIs and JavaScript for frontend work. <br /><br />
       
-      The public cloud services is something to be embraced. The deep learning framework of choice is the tensorflow ecosystem.
-      The weapon of choice against aliens is math. I try to keep up to date with latest trends and advancements in deep learning.
+      The public cloud services is something to be embraced. The deep learning framework of choice is the tensorflow and pytorch ecosystem.
+      The weapon of choice against aliens is matrix multiplication. I stay up to date with machine learning and 
+      continuously refine my skillset in order to have a good grasp of the industry's state and best practises. My skillset is focused on
+      machine and deep learning, but it also spans the dimensions of Web & Mobile App Development, AI on the Edge,
+      IoT and big data.
       <br /><br />
       <small>Occasionally playing competitive video games</small>
     </p>

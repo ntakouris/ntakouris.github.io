@@ -1,16 +1,13 @@
 [
     {
-        "title": "Cryptocurrency Predictions",
-        "description": "Time series forecasting, trading strategy execution, backtesting, paper and live trading.",
-        "type": "Deep Learning System",
-        "urls": {
-            "view": "/projects/bitbot"
-        }
+        "title": "Cryptocurrency Trading Bot",
+        "description": "Time series models, trading strategy execution, backtesting, paper and live trading.",
+        "type": "ML Solution"
     },
     {
         "title": "Fluent TFX",
         "description": "A Fluent and Compact Tensorflow Extended API Layer with sensible defaults, available as a PyPi package.",
-        "type": "E2E ML Pipelines Library",
+        "type": "ML Library",
         "urls": {
             "github": "https://github.com/ntakouris/fluent-tfx"
         }
@@ -18,18 +15,10 @@
     {
         "title": "PoseNet Dino",
         "description": "Physically play Chrome's offline dino game by physically jumping around in your room.",
-        "type": "Deep Learning Experiment",
+        "type": "Deep Learning",
         "urls": {
             "article": "https://medium.com/@zarkopafilis/playing-chromes-dino-game-by-physically-jumping-and-crouching-a3d319234727?source=friends_link&sk=92f5a9b3bc8735ccab84f7b4bf6e835b",
             "github": "https://github.com/ntakouris/posenet-dino-game"
-        }
-    },
-    {
-        "title": "TF Technical Indicators",
-        "description": "Fincancial Technical Indicators for market analysis as Tensorflow Graph Code, available as a PyPi package.",
-        "type": "Deep Learning Library",
-        "urls": {
-            "github": "https://github.com/ntakouris/tf-technical-indicators"
         }
     },
     {
