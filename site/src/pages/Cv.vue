@@ -101,7 +101,7 @@
     <h2 class="mb-1">Work Experience</h2>
 
     <h4>
-      <u>ML Engineer | Greek Army - Center of Technology and Research</u>
+      <u>Research Engineer | Greek Army - Center of Technology and Research</u>
       (Mandatory Army Service, 2021)
     </h4>
 

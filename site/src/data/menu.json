@@ -16,6 +16,12 @@
         "href": "/cv"
     },
     {
+        "title": "Publications",
+        "icon": "school",
+        "href": "https://scholar.google.com/citations?hl=en&user=-G2qw5EAAAAJ",
+        "target": "_blank"
+    },
+    {
         "title": "Medium Blog",
         "icon": "notes",
         "href": "https://medium.com/@zarkopafilis",
