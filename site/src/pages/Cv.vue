@@ -1,44 +1,5 @@
 <template>
   <Layout navbarTitle="Theodoros Ntakouris CV">
-    <v-card class="mx-auto mt-2 mb-0" max-width="1024" outlined>
-      <v-list-item>
-        <v-list-item-content>
-          <div class="overline">Startup News</div>
-          <v-list-item-title class="headline"
-            >Lambda (λ) Automata</v-list-item-title
-          >
-          <div class="text--primary">
-            <br />
-            Since late 2021, I've joined <b>λ-automata</b> as a Co-Founding
-            Engineer. <br /><br />
-            We're building AI-first systems for autonomous surveillance,
-            reconnaissance, and superhuman situational awareness.<br /><br />
-            We are a team of engineers, defense experts and former military
-            officers, set on a mission to create cutting-edge technology for the
-            European Defense sector at Silicon Valley-style speed and agility.
-
-            <br /><br />
-
-            We're hiring.
-          </div>
-        </v-list-item-content>
-      </v-list-item>
-      <br /><br />
-      <v-card-actions style="position: absolute; bottom: -4px">
-        <v-btn text href="http://lambda-automata.eu" target="_blank"
-          >lambda-automata.eu</v-btn
-        >
-
-        <v-btn
-          text
-          href="https://www.lambda-automata.eu/work-with-us"
-          target="_blank"
-          >Jobs</v-btn
-        >
-      </v-card-actions>
-    </v-card>
-    <br />
-
     <div style="display: flex; align-items: center">
       <v-btn outlined href="mailto:hi@ntakour.is" target="_blank"
         >hi@ntakour.is</v-btn
@@ -54,14 +15,17 @@
     <br />
     <h2>Summary</h2>
     <p>
-      Curiosity and results-driven engineer with a strong focus on applied
-      machine learning research. Analytical thinker and methodical regarding
-      good software, statistics and data engineering practices. Active Open
-      source contributor and researcher. I stay up to date with ML research and
-      continuously refine my skillset in order to have a good grasp of the
-      industry's state and best practises. My skillset is focused on machine and
-      deep learning, but it is also spans the dimensions of Web & Mobile App
-      Development, AI on the Edge, IoT and Big Data.
+    I am a results-driven machine learning engineer with over 
+    10 years of software engineering experience and
+     a passion for applying AI to solve real-world problems.
+     
+     I specialize in machine learning and have developed a versatile skillset
+     that includes a strong understanding of data-powered algorithms and techniques,
+     high quality software systems, leadership, executive communication,
+     and managerial abilities.
+     
+     I am committed to making a positive impact through the use of innovative technologies,
+     and I bring a collaborative mindset and a proven track record of delivering high-quality work.
     </p>
     <br />
 
@@ -76,86 +40,21 @@
         </i>
         - (2016 - 2021)
       </li>
-      <br />
-      Modules include: Machine Learning, Computer Vision, Data Engineering, Web
-      Technologies, Software Engineering & Testing
+      Thesis: Sparsity and Quantization in Convolutional Neural Networks
     </ul>
-    <br /><br />
-
-    <h2 class="mb-1">Skills</h2>
-    <v-simple-table class="mb-1">
-      <template v-slot:default>
-        <thead>
-          <tr>
-            <th class="text-left">Category</th>
-            <th class="text-left">Technologies</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Languages</td>
-            <td>Python, C#, JavaScript, Java</td>
-          </tr>
-          <tr>
-            <td>Databases</td>
-            <td>MySQL, MongoDB, TimescaleDB, SQLite</td>
-          </tr>
-          <tr>
-            <td>Machine Learning</td>
-            <td>
-              Keras & TensorFlow, PyTorch, Model Optimization, Distributed
-              Training & TPUs, Apache Beam, Scikit-Learn, Jetson Platform,
-              NVIDIA DeepStream
-            </td>
-          </tr>
-          <tr>
-            <td>Software Engineering</td>
-            <td>
-              Design Patterns, Async Programming, ORM, CQRS, Testing, REST APIs,
-              Distributed Systems
-            </td>
-          </tr>
-          <tr>
-            <td>Web Frameworks</td>
-            <td>ASP.Net Core, Spring Boot, FastAPI, Vuejs, Grafana</td>
-          </tr>
-          <tr>
-            <td>DevOps and Other</td>
-            <td>Git, Gradle, CI/CD, Docker, Kubernetes</td>
-          </tr>
-        </tbody>
-      </template>
-    </v-simple-table>
     <br />
 
-    <a href="https://github.com/ntakouris" target="_blank">Github Account</a>
-    <a
-      style="display: inline; margin-left: 12px"
-      href="https://zarkopafilis.medium.com"
-      target="_blank"
-      >Medium Blog</a
-    >
-    <br /><br /><br />
-
     <h2 class="mb-1">Work Experience</h2>
+
+    <h4><u>Lead SW & ML Engineer | Lambda (λ) Automata </u> (2021 - Present)</h4>
+    <p>The first hire of the engineering team</p>
+
+    <br />
 
     <h4>
       <u>Research Engineer | Greek Army - Center of Technology and Research</u>
       (Mandatory Army Service, 2021)
     </h4>
-
-    <!-- <ul>
-      <li>
-        Collaborated with Mechanical and Aviation Engineers in order to assess
-        viability of primarily AI Vision-guided autonomous vehicles
-      </li>
-
-      <li>
-        Selected suitable hardware for the sensory subsystem and collected the
-        data required in order to train guidance and other vision systems
-      </li>
-    </ul>  -->
-    <br />
 
     <h4><u>ML Research Engineer | Loctio.com</u> (Contract, 2020 - 2021)</h4>
 

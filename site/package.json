@@ -12,7 +12,7 @@
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "assets-loader": "^0.5.2",
-    "gridsome": "^0.7.0",
+    "gridsome": "^0.7.23",
     "imagemin-pngquant": "^9.0.2",
     "pts": "^0.9.4",
     "shap": "^1.1.3",
