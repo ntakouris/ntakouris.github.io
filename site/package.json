@@ -3,9 +3,9 @@
   "private": true,
   "scripts": {
     "build": "gridsome build",
-    "develop": "gridsome develop",
+    "develop": "export NODE_OPTIONS=--openssl-legacy-provider && gridsome develop",
     "explore": "gridsome explore",
-    "predeploy": "npm run build && cp CNAME dist",
+    "predeploy": "export NODE_OPTIONS=--openssl-legacy-provider && npm run build && cp CNAME dist && export NODE_OPTIONS=",
     "deploy": "gh-pages -d dist --branch=master"
   },
   "dependencies": {
