@@ -22,9 +22,6 @@
     >
       <a href="/about" style="color: inherit; text-decoration: none;"><button class="btn">About</button></a>
 
-      <a href="/projects" style="color: inherit; text-decoration: none;"><button class="btn">Projects</button></a>
-
-      <a href="/cv" style="color: inherit; text-decoration: none;"><button class="btn">CV</button></a>
     </div>
 
     <div
@@ -59,14 +56,12 @@ export default {
   mounted: function() {
     new Typed("#typed", {
       strings: [
-        "Software and ML Engineering.",
-        "Software and ML Engineering.",
-        "Deep Learning Experiments.",
-        "Autonomous Systems.",
-        "Unmanned Aviation.",
-        "Open Source Software and Research."
+        "AI Expertise",
+        "Software Engineering",
+        "Applied Research",
+        "Impact Focus",
       ],
-      typeSpeed: 40,
+      typeSpeed: 60,
       startDelay: 1500,
       loop: true,
       showCursor: false

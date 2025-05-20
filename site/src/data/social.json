@@ -1,17 +1,8 @@
 [
     {
-        "title": "Email",
-        "icon": "mail_outline",
-        "href": "mailto:hi@ntakour.is"
-    },
-    {
         "title": "Linked In",
         "icon": "fab fa-linkedin",
         "href": "https://www.linkedin.com/in/theodoros-ntakouris"
-    },
-    {
-        "icon": "fab fa-medium",
-        "href": "https://zarkopafilis.medium.com"
     },
     {
         "title": "Github",
